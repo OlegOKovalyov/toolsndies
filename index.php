@@ -1,1 +1,17 @@
-<?php echo "<h1 style=\"text-align:center;margin:15px;font-size:40px;\">Site path: <span style=\"color:red\">/var/www/html/toolsndies</span></h1><hr>"; phpinfo() ?>
+<?php
+/**
+ * Front to the WordPress application. This file doesn't do anything, but loads
+ * wp-blog-header.php which does and tells WordPress to load the theme.
+ *
+ * @package WordPress
+ */
+
+/**
+ * Tells WordPress to load the WordPress theme and output it.
+ *
+ * @var bool
+ */
+define('WP_USE_THEMES', true);
+
+/** Loads the WordPress Environment and Template */
+require( dirname( __FILE__ ) . '/wp-blog-header.php' );
