@@ -12,6 +12,7 @@ if ( ! function_exists( 'basic_setup' ) ) :
 
 		register_nav_menus( array(
 			'menu-1' => esc_html__( 'Primary', 'basic' ),
+			'menu-2' => esc_html__( 'Footer', 'basic' ),
 		) );
 
 
@@ -52,6 +53,32 @@ function basic_widgets_init() {
 	) );
 }
 add_action( 'widgets_init', 'basic_widgets_init' );
+
+function basic_footer1_widgets_init() {
+    register_sidebar( array(
+        'name'          => esc_html__( 'Footer-1', 'basic' ),
+        'id'            => 'footer-1',
+        'description'   => esc_html__( 'Add widgets here.', 'basic' ),
+        'before_widget' => '<section id="%1$s" class="widget %2$s">',
+        'after_widget'  => '</section>',
+        'before_title'  => '<h2 class="widget-title">',
+        'after_title'   => '</h2>',
+    ) );
+}
+add_action( 'widgets_init', 'basic_footer1_widgets_init' );
+
+function basic_footer2_widgets_init() {
+    register_sidebar( array(
+        'name'          => esc_html__( 'Footer-2', 'basic' ),
+        'id'            => 'footer-2',
+        'description'   => esc_html__( 'Add widgets here.', 'basic' ),
+        'before_widget' => '<section id="%1$s" class="widget %2$s">',
+        'after_widget'  => '</section>',
+        'before_title'  => '<h2 class="widget-title">',
+        'after_title'   => '</h2>',
+    ) );
+}
+add_action( 'widgets_init', 'basic_footer2_widgets_init' );
 
 /**
  * Enqueue scripts and styles.

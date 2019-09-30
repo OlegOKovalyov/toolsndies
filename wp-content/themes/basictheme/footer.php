@@ -6,9 +6,35 @@
 
 	</div><!-- #content -->
 
-	<footer id="colophon" class="site-footer">
-		<div class="site-info">
 
+<div class="custom-footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-5">
+                <?php
+                if ( function_exists('dynamic_sidebar') )
+                    dynamic_sidebar('footer-1');
+                ?>
+            </div>
+            <div class="col-md-7">
+                <?php
+                if ( function_exists('dynamic_sidebar') )
+                    dynamic_sidebar('footer-2');
+                ?>
+            </div>
+
+        </div>
+    </div>
+    <?php
+    if ( function_exists('dynamic_sidebar') )
+        dynamic_sidebar('footer-widget');
+    ?>
+</div>
+
+
+	<footer id="colophon" class="site-footer">
+		<div class="site-info text-center">
+            <p>© Tools&Dies 2019    /    Algemene Voorwaarden     /    Privacy Policy </p>
 		</div><!-- .site-info -->
 	</footer><!-- #colophon -->
 </div><!-- #page -->
