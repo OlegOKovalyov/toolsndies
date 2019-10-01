@@ -85,6 +85,9 @@ add_action( 'widgets_init', 'basic_footer2_widgets_init' );
  */
 function basic_scripts() {
 	wp_enqueue_style( 'basic-style', get_stylesheet_uri() );
+
+    wp_deregister_script( 'jquery' );
+    wp_enqueue_script( 'jquery', 'https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js' );
 }
 add_action( 'wp_enqueue_scripts', 'basic_scripts' );
 
@@ -92,3 +95,27 @@ add_action( 'wp_enqueue_scripts', 'basic_scripts' );
  * Customizer additions.
  */
 require get_template_directory() . '/inc/customizer.php';
+
+/**
+ * Add code in mobile Menu-1.
+ */
+add_filter( 'wp_nav_menu_items', 'logo_email_menu_item', 10, 2 );
+function logo_email_menu_item ( $items, $args ) {
+    if ($args->theme_location == 'menu-1') {
+        $logo_menu_url = get_field('mobile_logo');
+        $items .= '<li class="logo_mobile_menu"><a href="http://toolsndies.loc"><img src="'. $logo_menu_url . '" alt=""></a></li>';
+        $mailto_mobile = get_field('mobile_email');
+        $items .= '<li class="mobile_menu_email"><a href="'. 'mailto:' . $mailto_mobile . '">' . $mailto_mobile . '</a></li>';
+    }
+    return $items;
+}
+
+/**
+ * Trim pages titles.
+ */
+function trim_title_chars($count, $after) {
+    $title = get_the_title();
+    if (mb_strlen($title) > $count) $title = mb_substr($title,0,$count);
+    else $after = '';
+    echo $title . $after;
+}

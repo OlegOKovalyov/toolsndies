@@ -36,6 +36,7 @@ body {
     flex-direction: column;
     justify-content: center;
     height: 100%;
+    width: 100%;
 }
 
 .menu-menu-1-container ul li a {
@@ -70,7 +71,7 @@ body {
 .our_clients img {
     margin-left: 0;
     margin-bottom: 73px;
-    width: 65%;
+    max-width: 65%;
 }
 
 /* sub_title_center */
@@ -117,13 +118,13 @@ body {
     clip-path: polygon(0 13%, 10% 13%, 10% 0, 100% 0, 100% 100%, 0 100%);
     float: right;
     margin-top: 184px;
-    width: 85%;
+    max-width: 85%;
 }
 
 .problem_solution .card02 {
     clip-path: polygon(0 0, 90% 0, 90% 13%, 100% 13%, 100% 0, 100% 100%, 0 100%);
     margin-top: 134px;
-    width: 85%;
+    max-width: 85%;
 }
 .problem_solution .card .card-title {
     color: #ff3a20;
@@ -189,10 +190,15 @@ body {
 
 .btn-wrap .btn-link {
     color: #fff;
+    text-decoration: none;
 }
 
 .review_block {
     margin-bottom: 15px;
+}
+
+.review_block img {
+    width: 100%;
 }
 
 .contact_dark_btn .btn-outline-primary {
@@ -216,12 +222,15 @@ body {
     color: #000;
 }
 
-.custom-footer .widget_media_image img {
-    /*margin-bottom: 35px;*/
+.custom-footer section {
+    margin-bottom: 40px;
 }
 
-.custom-footer section {
-    margin-bottom: 35px;
+.custom-footer .textwidget p {
+    color: #646464;
+    font-size: 15px;
+    font-weight: 300;
+    margin-bottom: 10px;
 }
 
 .custom-footer section a {
@@ -243,6 +252,7 @@ body {
 .menu-menu-2-container ul.menu {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
     margin-top: 13px;
 }
 
@@ -259,6 +269,7 @@ body {
 }
 
 .menu-menu-2-container ul.sub-menu li {
+    width: 175px; /* !!!!! */
     margin-bottom: 10px;
 }
 
@@ -267,7 +278,7 @@ body {
     font-weight: 300;
 }
 
-#custom_html-4 h2 {
+.custom-footer h2.widget-title {
     font-size: 24px;
     font-weight: 500;
 }
@@ -280,8 +291,10 @@ body {
 
 .column_footer_contact {
     display: flex;
+    justify-content: flex-end;
     flex-direction: column;
     margin-top: 18px;
+    width: 175px; /* !!!!! */
 }
 
 .column_footer_contact a {
@@ -297,4 +310,152 @@ body {
     padding-top: 90px;
     padding-bottom: 30px;
     text-transform: uppercase;
+}
+
+/* Media Queries */
+@media screen and (min-width: 768px) {
+    .logo_mobile_menu,
+    .mobile_menu_email {
+        display: none;
+    }
+}
+
+
+@media screen and (max-width: 1199px) {
+    .custom-logo-link img {
+        width: 90%;
+        height: auto;
+    }
+    .main-navigation ul {
+        margin-top: 20px;
+    }
+    .home_h1 h1 {
+        font-size: 52px;
+        margin-top: 70px;
+        margin-bottom: 70px;
+    }
+    .problem_solution {
+        background: url(images/machine1.png) no-repeat 22% 2%,
+        url(images/machine2.png) no-repeat 75% 0,
+        url(images/machine3.png) no-repeat -42% 100%,
+        url(images/machine4.png) no-repeat 94% 95%;
+    }
+    .problem_solution .card .card-title {
+        font-size: 28px;
+    }
+    .our_clients img {
+        max-width: 85%;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .site-branding {
+        text-align: center;
+    }
+    .custom-logo-link img {
+        max-width: 50%;
+    }
+    .menu-menu-1-container ul {
+        justify-content: center;
+        padding-left: 0;
+    }
+    .menu-menu-1-container ul li a {
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+    .our_clients img {
+        margin-bottom: 45px;
+    }
+    .problem_solution .card {
+        margin-top: 20px;
+        max-width: 100%;
+    }
+    .sub_page_columns {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+    .problem_solution {
+        background: url(images/machine1.png) no-repeat 0% -1%,
+        url(images/machine2.png) no-repeat 96% 0,
+        url(images/machine3.png) no-repeat -85% 100%,
+        url(images/machine4.png) no-repeat 95% 93%;
+        margin-bottom: 30px;
+    }
+    .home_2nd_title h2 {
+        font-size: 50px;
+    }
+    .footer_contact {
+        flex-wrap: wrap;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .menu-menu-1-container > ul {
+        justify-content: flex-start;
+        align-items: center;
+    }
+    .menu-menu-1-container > ul > li:first-child {
+        margin-top: 63px;
+    }
+    .menu-menu-1-container > ul > li {
+        margin-bottom: 35px;
+    }
+    .menu-menu-1-container > ul > li:last-child {
+        margin-bottom: 15px;
+    }
+    .menu-menu-1-container ul li a {
+        font-size: 46px;
+    }
+    .main-navigation {
+        justify-content: flex-end;
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+    .main-navigation button {
+        z-index: 3;
+    }
+    .main-navigation ul {
+        flex-direction: column;
+        background-color: #ff3a20;
+        height: 100vh;
+        width: 100vw;
+        margin-right: -16px;
+        margin-top: -50px !important;
+        z-index: 1;
+    }
+    .main-navigation .navbar-toggler.collapsed {
+        z-index: 2;
+    }
+    .navbar-toggler>.close {
+        display:inline;
+    }
+    .navbar-toggler.collapsed>.close, .navbar-toggler:not(.collapsed)>.navbar-toggler-icon {
+        display:none;
+    }
+    .home_h1 h1 {
+        font-size: 40px;
+    }
+    .problem_solution {
+        background: url(images/machine1.png) no-repeat 0% -1%,
+        url(images/machine2.png) no-repeat 96% 0,
+        url(images/machine3.png) no-repeat 35% 100%,
+        url(images/machine4.png) no-repeat 95% 93%;
+    }
+    .problem_solution .card .card-title {
+        font-size: 28px;
+    }
+    .home_2nd_title h2 {
+        font-size: 38px;
+    }
+    .menu-menu-1-container .mobile_menu_email > a {
+        font-size: 15px;
+        color: #000;
+        border-bottom: 2px solid #000;
+        text-decoration: none;
+    }
+}
+
+@media screen and (max-width: 575px) {
+
 }
