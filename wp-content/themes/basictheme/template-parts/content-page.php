@@ -38,8 +38,7 @@
                                     <div class="card-body">
                                         <div class="card_header">
                                             <span class="card_number"><?php printf("% 02s", $count); ?></span>
-<!--                                            <h5 class="card-title">--><?php //the_title(); ?><!--</h5>-->
-                                            <h5 class="card-title"><?php trim_title_chars(14); ?></h5>
+                                            <h5 class="card-title"><?php the_title(); ?></h5>
                                         </div>
                                         <p class="card-text"><?php the_content(); ?></p>
                                         <a href="<?php the_permalink(); ?>" class="card-link">MEER WETEN →</a>
