@@ -64,10 +64,10 @@
         </div>
         <div class="img_and_text container">
             <div class="row">
-                <div class="image_block col-md-6">
+                <div class="image_block col-lg-6">
                     <img src="<?php the_field('image_2nd_title'); ?>" alt="">
                 </div>
-                <div class="text_block col-md-6">
+                <div class="text_block col-lg-6">
                     <p>Tools&Dies heeft als team samen meer dan 350 jaar ervaring in het op maat maken van matrijzen en gereedschappen. Onze kennis is zeer uitgebreid en onze capaciteiten zijn meer dan voldoende om te kunnen voldoen aan uw noden</p>
                     <p>Geïnteresseerd in een samenwerking?</p>
                     <span class="btn-wrap">
@@ -77,12 +77,12 @@
                 </div>
             </div>
             <div class="row">
-                <div class="sub_title_right col">
+                <div class="sub_title_right offset-lg-6 col-lg-6">
                     <h6><?php the_field('sub_title_right'); ?></h6>
                 </div>
             </div>
             <div class="row">
-                <div class="review_block col">
+                <div class="review_block col-lg-12">
                     <img src="<?php the_field('review_image'); ?>" alt="">
                 </div>
             </div>
