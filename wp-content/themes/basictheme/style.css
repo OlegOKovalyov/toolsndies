@@ -34,6 +34,13 @@ Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
     font-style: normal;
 }
 
+@font-face{
+    font-family: 'Stratos Web Thin';
+    src: url('fonts/stratos/Stratos Web Thin Regular.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
 body {
     background-color: #000;
     color: #fff;
@@ -83,7 +90,7 @@ body {
 /* Content Home Page */
 /* home_h1*/
 .home_h1 h1 {
-    font-size: 70px;
+    font-size: 83px;
     line-height: 1;
     margin-top: 150px;
     margin-bottom: 129px;
@@ -91,6 +98,8 @@ body {
 
 .home_h1 h6 {
     font-size: 16px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
 }
 
 /* our_ clients */
@@ -107,12 +116,13 @@ body {
 
 /* problem_solution */
 .problem_solution {
-    background: url("images/machine1.png") no-repeat 22% 2%,
-        url("images/machine2.png") no-repeat 75% 0,
-        url("images/machine3.png") no-repeat 15% 100%,
-        url("images/machine4.png") no-repeat 69% 96%;
-    padding-bottom: 120px;
-    margin-bottom: 100px;
+    background: url(images/machine1.png) no-repeat 22% 2%,
+    url(images/machine2.png) no-repeat 75% 0,
+    url(images/machine3.png) no-repeat 15% 98%,
+    url(images/bg_grid.png) no-repeat 85% 100%,
+    url(images/machine4.png) no-repeat 69% 93%;
+    padding-bottom: 155px;
+    margin-bottom: 65px;
 }
 
 .problem_solution .card {
@@ -190,13 +200,17 @@ body {
 }
 
 .contact_btn {
-    margin-bottom: 80px;
+    margin-bottom: 50px;
 }
 
 /* home_2nd_title*/
+.home_2nd_title {
+    background: url(/wp-content/themes/basictheme/images/bg_crosses.png) no-repeat -22% 0%;
+}
 .home_2nd_title h2 {
-    font-size: 68px;
+    font-size: 83px;
     margin-bottom: 80px;
+    padding-top: 35px;
 }
 
 /* img_and_text */
@@ -209,6 +223,7 @@ body {
     font-weight: 500;
     margin-left: 20px;
     margin-bottom: 45px;
+    width: 85%;
 }
 
 .btn-wrap {
@@ -271,6 +286,7 @@ body {
 
 .custom-footer .textwidget p {
     color: #646464;
+    font-family: 'Stratos Web Thin', sans-serif;
     font-size: 15px;
     font-weight: 300;
     margin-bottom: 10px;
@@ -317,8 +333,8 @@ body {
 }
 
 .menu-menu-2-container ul.sub-menu li a {
+    font-family: 'Stratos Web Thin', sans-serif;
     font-size: 15px;
-    font-weight: 300;
 }
 
 .custom-footer h2.widget-title {
@@ -343,6 +359,10 @@ body {
 .column_footer_contact a {
     border-bottom: 2px solid #ff3a20;
     text-decoration: none;
+}
+
+.column_footer_contact:last-child a {
+    font-family: 'Stratos Web Medium', sans-serif;
 }
 
 /* site-footer */
