@@ -76,6 +76,16 @@
                     <hr>
                 </div>
             </div>
+            <div class="row">
+                <div class="sub_title_right col">
+                    <h6><?php the_field('sub_title_right'); ?></h6>
+                </div>
+            </div>
+            <div class="row">
+                <div class="review_block col">
+                    <img src="<?php the_field('review_image'); ?>" alt="">
+                </div>
+            </div>
             <div class="contact_dark_btn row justify-content-center">
                 <a href="<?php the_field('link_ok_contact'); ?>" type="" class="btn btn-lg btn-outline-primary">OK, IK NEEM CONTACT OP</a>
             </div>

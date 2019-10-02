@@ -20,10 +20,26 @@ Normalizing styles have been helped along thanks to the fine work of
 Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
 */
 
+@font-face{
+    font-family: 'Stratos Web Regular';
+    src: url('fonts/stratos/Stratos Web.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face{
+    font-family: 'Stratos Web Medium';
+    src: url('fonts/stratos/Stratos Web Medium.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
 body {
     background-color: #000;
     color: #fff;
-    font-family: 'Montserrat', sans-serif;
+    /*font-family: 'Montserrat', sans-serif;*/
+    font-family: 'Stratos Web Regular', sans-serif;
+    /*font-family: 'Stratos Web Medium', sans-serif;*/
 }
 
 /* Header */
@@ -41,9 +57,15 @@ body {
 
 .menu-menu-1-container ul li a {
     color: #fff;
+    font-family: 'Stratos Web Medium', sans-serif;
     font-size: 23px;
-    font-weight: 600;
+    font-weight: 400;
     margin-left: 60px;
+    padding: 3px 11px 4px 7px;
+}
+
+.menu-menu-1-container ul li:nth-child(4) a {
+    background-color: #ff3a20;
 }
 
 .main-navigation ul {
