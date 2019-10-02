@@ -99,10 +99,30 @@ body {
 .home_h1 h6 {
     font-size: 16px;
     letter-spacing: 2px;
+    margin-left: 45px;
     text-transform: uppercase;
 }
 
 /* our_ clients */
+.happy_clients .row {
+    background-color: #ff3a20;
+    clip-path: polygon(0 18%, 5% 18%, 5% 0, 100% 0, 100% 100%, 0 100%);
+    min-height: 196px;
+    margin-bottom: 73px;
+}
+
+.happy_clients img {
+    margin: 20px;
+}
+
+.happy_clients_col {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
 .our_clients img {
     margin-left: 0;
     margin-bottom: 73px;
@@ -227,8 +247,7 @@ body {
 }
 
 .btn-wrap {
-    border-bottom: 2px solid #ff3a20;
-    padding-bottom: 15px;
+    margin-left: 12px;
 }
 
 .btn-wrap .btn-link {
@@ -237,6 +256,9 @@ body {
     margin-left: 12px;
     text-decoration: none;
     text-transform: uppercase;
+    border-bottom: 2px solid #ff3a20;
+    padding-left: 0;
+    border-radius: 0;
 }
 
 .review_block {

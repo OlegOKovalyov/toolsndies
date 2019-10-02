@@ -6,13 +6,23 @@
                 <h6><?php the_field('sub_title'); ?></h6>
             </div>
         </div>
-
     </div>
-    <div class="our_clients container-fluid">
-        <div class="row d-flex justify-content-center">
-            <img src="<?php the_field('clients_image'); ?>" alt="Our clients">
+    <div class="happy_clients container">
+        <div class="row">
+            <div class="happy_clients_col">
+                <img src="<?php the_field('happy_client_1'); ?>" alt="Happy client 1">
+                <img src="<?php the_field('happy_client_2'); ?>" alt="Happy client 2">
+                <img src="<?php the_field('happy_client_3'); ?>" alt="Happy client 3">
+                <img src="<?php the_field('happy_client_4'); ?>" alt="Happy client 4">
+                <img src="<?php the_field('happy_client_5'); ?>" alt="Happy client 5">
+            </div>
         </div>
     </div>
+<!--    <div class="our_clients container-fluid">
+        <div class="row d-flex justify-content-center">
+            <img src="<?php /*the_field('clients_image'); */?>" alt="Our clients">
+        </div>
+    </div>-->
     <div class="sub_title_center container">
         <div class="row">
             <div class="offset-lg-3 col-lg-6 col-md-12 text-center">
