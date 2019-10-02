@@ -10,13 +10,13 @@
 <div class="custom-footer">
     <div class="container">
         <div class="row">
-            <div class="col-md-5">
+            <div class="footer_logo_social col-lg-6">
                 <?php
                 if ( function_exists('dynamic_sidebar') )
                     dynamic_sidebar('footer-1');
                 ?>
             </div>
-            <div class="col-md-7">
+            <div class="footer_menu_2 col-lg-6">
                 <?php
                 if ( function_exists('dynamic_sidebar') )
                     dynamic_sidebar('footer-2');

@@ -20,7 +20,7 @@ Normalizing styles have been helped along thanks to the fine work of
 Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
 */
 
-@font-face{
+/*@font-face{
     font-family: 'Stratos Web Regular';
     src: url('fonts/stratos/Stratos Web.ttf');
     font-weight: normal;
@@ -39,15 +39,83 @@ Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
     src: url('fonts/stratos/Stratos Web Thin Regular.ttf');
     font-weight: normal;
     font-style: normal;
+}*/
+
+/*
+ * The Typekit service used to deliver this font or fonts for use on websites
+ * is provided by Adobe and is subject to these Terms of Use
+ * http://www.adobe.com/products/eulas/tou_typekit. For font license
+ * information, see the list below.
+ *
+ * orpheuspro:
+ *   - http://typekit.com/eulas/000000000000000000016ea6
+ *   - http://typekit.com/eulas/000000000000000000015d5b
+ *   - http://typekit.com/eulas/000000000000000000016ea5
+ * stratos:
+ *   - http://typekit.com/eulas/00000000000000003b9b19d2
+ *   - http://typekit.com/eulas/00000000000000003b9b19d4
+ *   - http://typekit.com/eulas/00000000000000003b9b19d7
+ *   - http://typekit.com/eulas/00000000000000003b9b19da
+ *
+ * © 2009-2019 Adobe Systems Incorporated. All Rights Reserved.
+ */
+/*{"last_published":"2019-06-20 19:24:24 UTC"}*/
+
+@import url("https://p.typekit.net/p.css?s=1&k=ygj1ggc&ht=tk&f=24425.24426.24427.38192.38194.38197.38200&a=23166372&app=typekit&e=css");
+
+@font-face {
+    font-family:"orpheuspro";
+    src:url("https://use.typekit.net/af/972118/000000000000000000016ea6/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3") format("woff2"),url("https://use.typekit.net/af/972118/000000000000000000016ea6/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3") format("woff"),url("https://use.typekit.net/af/972118/000000000000000000016ea6/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3") format("opentype");
+    font-style:normal;font-weight:700;
+}
+
+@font-face {
+    font-family:"orpheuspro";
+    src:url("https://use.typekit.net/af/320790/000000000000000000015d5b/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i4&v=3") format("woff2"),url("https://use.typekit.net/af/320790/000000000000000000015d5b/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i4&v=3") format("woff"),url("https://use.typekit.net/af/320790/000000000000000000015d5b/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i4&v=3") format("opentype");
+    font-style:italic;font-weight:400;
+}
+
+@font-face {
+    font-family:"orpheuspro";
+    src:url("https://use.typekit.net/af/07139b/000000000000000000016ea5/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("woff2"),url("https://use.typekit.net/af/07139b/000000000000000000016ea5/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("woff"),url("https://use.typekit.net/af/07139b/000000000000000000016ea5/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("opentype");
+    font-style:normal;font-weight:400;
+}
+
+@font-face {
+    font-family:"stratos";
+    src:url("https://use.typekit.net/af/dbc251/00000000000000003b9b19d2/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("woff2"),url("https://use.typekit.net/af/dbc251/00000000000000003b9b19d2/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("woff"),url("https://use.typekit.net/af/dbc251/00000000000000003b9b19d2/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("opentype");
+    font-style:normal;font-weight:400;
+}
+
+@font-face {
+    font-family:"stratos";
+    src:url("https://use.typekit.net/af/85fe0b/00000000000000003b9b19d4/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n5&v=3") format("woff2"),url("https://use.typekit.net/af/85fe0b/00000000000000003b9b19d4/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n5&v=3") format("woff"),url("https://use.typekit.net/af/85fe0b/00000000000000003b9b19d4/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n5&v=3") format("opentype");
+    font-style:normal;font-weight:500;
+}
+
+@font-face {
+    font-family:"stratos";
+    src:url("https://use.typekit.net/af/34e687/00000000000000003b9b19d7/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3") format("woff2"),url("https://use.typekit.net/af/34e687/00000000000000003b9b19d7/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3") format("woff"),url("https://use.typekit.net/af/34e687/00000000000000003b9b19d7/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3") format("opentype");
+    font-style:normal;font-weight:700;
+}
+
+@font-face {
+    font-family:"stratos";
+    src:url("https://use.typekit.net/af/08a910/00000000000000003b9b19da/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n8&v=3") format("woff2"),url("https://use.typekit.net/af/08a910/00000000000000003b9b19da/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n8&v=3") format("woff"),url("https://use.typekit.net/af/08a910/00000000000000003b9b19da/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n8&v=3") format("opentype");
+    font-style:normal;font-weight:800;
 }
 
 body {
     background-color: #000;
     color: #fff;
     /*font-family: 'Montserrat', sans-serif;*/
-    font-family: 'Stratos Web Regular', sans-serif;
+    /*font-family: 'Stratos Web Regular', sans-serif;*/
     /*font-family: 'Stratos Web Medium', sans-serif;*/
+    font-family: "stratos",sans-serif;
 }
+
+.tk-orpheuspro { font-family: "orpheuspro",serif; }
+.tk-stratos { font-family: "stratos",sans-serif; }
 
 .site-content article {
     background: url(/wp-content/themes/basictheme/images/bg_crosses.png) no-repeat 11% 13%;
@@ -71,8 +139,8 @@ body {
     font-family: 'Stratos Web Medium', sans-serif;
     font-size: 23px;
     font-weight: 400;
-    margin-left: 60px;
-    padding: 3px 11px 4px 7px;
+    margin-left: 46px;
+    padding: 3px 6px 4px 6px;
 }
 
 .menu-menu-1-container ul li:nth-child(4) a {
@@ -91,24 +159,26 @@ body {
 /* home_h1*/
 .home_h1 h1 {
     font-size: 83px;
-    line-height: 1;
+    letter-spacing: 2.5px;
+    line-height: 0.93;
     margin-top: 150px;
-    margin-bottom: 129px;
+    margin-bottom: 140px;
 }
 
 .home_h1 h6 {
     font-size: 16px;
-    letter-spacing: 2px;
-    margin-left: 45px;
+    letter-spacing: 4px;
     text-transform: uppercase;
 }
 
 /* our_ clients */
 .happy_clients .row {
     background-color: #ff3a20;
-    clip-path: polygon(0 18%, 5% 18%, 5% 0, 100% 0, 100% 100%, 0 100%);
+    clip-path: polygon(0 23%, 5% 23%, 5% 0, 100% 0, 100% 100%, 0 100%);
     min-height: 196px;
     margin-bottom: 73px;
+    margin-left: -68px;
+    width: 1300px;
 }
 
 .happy_clients img {
@@ -136,11 +206,11 @@ body {
 
 /* problem_solution */
 .problem_solution {
-    background: url(images/machine1.png) no-repeat 22% 2%,
-    url(images/machine2.png) no-repeat 75% 0,
-    url(images/machine3.png) no-repeat 15% 98%,
-    url(images/bg_grid.png) no-repeat 85% 100%,
-    url(images/machine4.png) no-repeat 69% 93%;
+    background: url(images/machine1.png) no-repeat 21% 0%,
+        url(images/machine2.png) no-repeat 76% 1%,
+        url(images/machine3.png) no-repeat 11% 94%,
+        url(images/bg_grid.png) no-repeat 80% 93%,
+        url(images/machine4.png) no-repeat 68% 89%;
     padding-bottom: 155px;
     margin-bottom: 65px;
 }
@@ -166,21 +236,29 @@ body {
 }
 
 .problem_solution .card .card-title {
-    font-size: 40px;
+    font-size: 43px;
     display: inline;
 }
 
 .problem_solution .card01 {
     clip-path: polygon(0 13%, 10% 13%, 10% 0, 100% 0, 100% 100%, 0 100%);
     float: right;
-    margin-top: 184px;
-    max-width: 85%;
+    margin-top: 181px;
+    margin-right: 4px;
+    max-width: 82%;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 38px;
+}
+
+.problem_solution .card01 .card-title {
+    margin-top: -13px;
 }
 
 .problem_solution .card02 {
     clip-path: polygon(0 0, 90% 0, 90% 13%, 100% 13%, 100% 0, 100% 100%, 0 100%);
-    margin-top: 134px;
-    max-width: 85%;
+    margin-top: 130px;
+    max-width: 81%;
 }
 .problem_solution .card .card-title {
     color: #ff3a20;
@@ -300,6 +378,14 @@ body {
 .site-footer{
     background-color: #fff;
     color: #000;
+}
+
+.custom-footer .row .footer_logo_social {
+    margin-left: 37px; /* !!!!! */
+}
+
+.custom-footer .row .footer_menu_2 {
+    margin-left: -38px; /* !!!!! */
 }
 
 .custom-footer section {
@@ -543,4 +629,10 @@ body {
 
 @media screen and (max-width: 575px) {
 
+}
+
+@media (min-width: 1440px) {
+    .container {
+        max-width: 1203px;
+    }
 }
