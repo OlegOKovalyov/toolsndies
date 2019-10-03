@@ -10,13 +10,13 @@
 <div class="custom-footer">
     <div class="container">
         <div class="row">
-            <div class="footer_logo_social col-lg-6">
+            <div class="footer_logo_social col-lg-6 col-md-5">
                 <?php
                 if ( function_exists('dynamic_sidebar') )
                     dynamic_sidebar('footer-1');
                 ?>
             </div>
-            <div class="footer_menu_2 col-lg-6">
+            <div class="footer_menu_2 col-lg-6 col-md-7">
                 <?php
                 if ( function_exists('dynamic_sidebar') )
                     dynamic_sidebar('footer-2');
@@ -34,7 +34,8 @@
 
 	<footer id="colophon" class="site-footer">
 		<div class="site-info text-center">
-            <p>© Tools&Dies 2019    /    Algemene Voorwaarden     /    Privacy Policy </p>
+            <p>© Tools&Dies 2019<span>/</span> <a href="">Algemene Voorwaarden</a><span>/</span> <a
+                            href="">Privacy</a></span></p>
 		</div><!-- .site-info -->
 	</footer><!-- #colophon -->
 </div><!-- #page -->
