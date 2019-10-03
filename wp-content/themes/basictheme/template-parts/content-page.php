@@ -2,7 +2,7 @@
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
     <div class="home_h1 container">
         <div class="row">
-            <div class="col-lg-8 col-md-12 col-sm-12">
+            <div class="col-lg-8 col-md-12 col-sm-8">
                 <h1 class="tk-orpheuspro"><?php the_field('home_title'); ?></h1>
                 <h6><?php the_field('sub_title'); ?></h6>
             </div>
@@ -88,7 +88,7 @@
                 </div>
             </div>
             <div class="row">
-                <div class="sub_title_right offset-lg-6 col-lg-6">
+                <div class="sub_title_right col">
                     <h6><?php the_field('sub_title_right'); ?></h6>
                 </div>
             </div>

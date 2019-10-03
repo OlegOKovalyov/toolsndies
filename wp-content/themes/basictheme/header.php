@@ -24,13 +24,19 @@
             <div class="row">
                 <div class="site-branding col-lg-4 col-md-12 col-sm-12">
                     <?php the_custom_logo(); ?>
+                    <div class="logo_name">Tools&Dies</div>
                 </div><!-- .site-branding -->
 
                 <nav id="site-navigation" class="main-navigation navbar navbar-expand-md navbar-dark bg-transparent col-lg-8 col-md-12 col-sm-12">
-                    <button class="navbar-toggler navbar-toggler-right collapsed" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="my-1 mx-2 close">X</span>
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
+                    <a href="#" class="contact_link">Contact</a>
+                    <div class="menu_btn">
+                        <span class="navbar-text">Menu</span>
+                        <button class="navbar-toggler navbar-toggler-right collapsed third-button" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                           <!-- <span class="my-1 mx-2 close">X</span>
+                            <span class="navbar-toggler-icon"></span>-->
+                            <div class="animated-icon3"><span></span><span></span><span></span></div>
+                        </button>
+                    </div>
                     <div class="collapse navbar-collapse" id="navbarResponsive">
                         <?php wp_nav_menu( array(
                             'theme_location' => 'menu-1',
