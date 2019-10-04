@@ -121,6 +121,8 @@ body {
     background: url(/wp-content/themes/basictheme/images/bg_crosses.png) no-repeat 11% 13%;
 }
 
+
+/* ------ HOME PAGE -------------------- */
 /* Header */
 .site-header {
     padding-top: 50px;
@@ -852,7 +854,7 @@ body {
     }
     .problem_solution {
         background: url(images/machine3mob.png) no-repeat 50% 57%;
-        margin-bottom: 15px;
+        margin-bottom: 18px;
         padding-bottom: 0;
     }
     .problem_solution .card03 {
@@ -940,11 +942,41 @@ body {
         vertical-align: bottom;
     }
     .main-navigation .contact_link {
-        border-bottom: 2px solid #ff3a20;
+        /*box-shadow: inset 0 0px 0 white, inset 0 -6px 0 #ff3a20;*/
         color: #fff;
         font-size: 16px;
         font-weight: 600;
         margin-left: 40px;
+        text-decoration: none;
+    }
+    .main-navigation > span {
+        align-self: flex-start;
+        margin-top: 10px;
+        position: relative;
+    }
+    .main-navigation > span > span {
+        position: absolute;
+    }
+    .main-navigation .contact_link:after {
+        content: "";
+        position: absolute;
+        /* left: 39px; */
+        bottom: 0;
+        right: 0;
+        margin: 3px auto;
+        background: #ff3a20;
+        height: 6px;
+        z-index: -1;
+        width: 58px;
+        /*display: block;
+        position: absolute;
+        content: "";
+        height: 2px;
+        width: 0;
+        background-color: red;
+        !*transition: width .5s ease-in-out;*!
+        left: 50%;
+        bottom: 0;*/
     }
     .main-navigation button {
         /*background: #ff3a20;*/
@@ -990,6 +1022,34 @@ body {
     }
     .custom-footer .row .footer_menu_2 {
         margin-left: 0;
+    }
+    .footer_contact .column_footer_contact:last-child {
+        text-align: center;
+        width: 100%;
+    }
+    .site-footer {
+        padding-top: 0;
+        padding-bottom: 20px;
+    }
+    .site-info > p {
+        display: flex;
+        flex-direction: column;
+        font-size: 12px;
+        line-height: 2;
+    }
+    .site-info > p > span {
+        display: none;
+    }
+    .site-info a:after {
+        content: "";
+        position: absolute;
+        /* bottom: 0px; */
+        /* right: 0px; */
+        margin: 20px auto;
+        background: #b3b3b3;
+        height: 1px;
+        width: 98px;
+        left: 44%;
     }
 }
 
@@ -1183,7 +1243,19 @@ body {
 }
 
 
+/* ------ CONTACT PAGE -------------------- */
+body.page-id-133.custom-background {
+    background-image: url(images/bg_contacttop.png);
+    background-position: right top;
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+}
 
+.contact_h1_form {
+    margin-top: 150px;
+}
 
-
-
+.contact_h1_form h1 {
+    font-size: 83px;
+}

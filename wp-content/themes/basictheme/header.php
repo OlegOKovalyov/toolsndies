@@ -28,7 +28,7 @@
                 </div><!-- .site-branding -->
 
                 <nav id="site-navigation" class="main-navigation navbar navbar-expand-md navbar-dark bg-transparent col-lg-8 col-md-12 col-sm-12">
-                    <a href="#" class="contact_link">Contact</a>
+                    <span><span><a href="#" class="contact_link">Contact</a></span></span>
                     <div class="menu_btn">
                         <span class="navbar-text">Menu</span>
                         <button class="navbar-toggler navbar-toggler-right collapsed third-button" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">

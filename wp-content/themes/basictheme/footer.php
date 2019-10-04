@@ -35,7 +35,7 @@
 	<footer id="colophon" class="site-footer">
 		<div class="site-info text-center">
             <p>© Tools&Dies 2019<span>/</span> <a href="">Algemene Voorwaarden</a><span>/</span> <a
-                            href="">Privacy</a></span></p>
+                            href="">Privacy Polisy</a></p>
 		</div><!-- .site-info -->
 	</footer><!-- #colophon -->
 </div><!-- #page -->
@@ -48,14 +48,14 @@
 <script>
     $(document).ready(function () {
 
-        $('.first-button').on('click', function () {
+/*        $('.first-button').on('click', function () {
 
             $('.animated-icon1').toggleClass('open');
         });
         $('.second-button').on('click', function () {
 
             $('.animated-icon2').toggleClass('open');
-        });
+        });*/
         $('.third-button').on('click', function () {
 
             $('.animated-icon3').toggleClass('open');

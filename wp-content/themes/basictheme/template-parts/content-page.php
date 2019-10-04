@@ -85,7 +85,7 @@
                     <span class="btn-wrap">
                         <a href="<?php the_field('link_to_expertise'); ?>" type="" class="btn btn-link">ONTDEK ONZE EXPERTISE →</a>
                     </span>
-<!--                    <hr>-->
+                    <hr>
                 </div>
             </div>
             <div class="row">
@@ -105,4 +105,20 @@
         </div>
     </div><!-- .entry-content -->
 </article>
+<?php endif;
+
+if (is_page('contact')): ?>
+    <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
+        <div class="contact_h1_form container">
+            <div class="row">
+                <div class="col-lg-5 col-md-6 col-sm-12">
+                    <h1 class="tk-orpheuspro"><?php the_field('contact_title'); ?></h1>
+                    <h6><?php the_field('sub_title'); ?></h6>
+                </div>
+                <div class="col-lg-7 col-md-6 col-sm-12">
+                    Здесь будет форма
+                </div>
+            </div>
+        </div>
+    </article>
 <?php endif;
