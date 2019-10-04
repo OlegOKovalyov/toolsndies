@@ -123,7 +123,7 @@ body {
 
 /* Header */
 .site-header {
-    margin-top: 50px;
+    padding-top: 50px;
 }
 
 .site-branding {
@@ -249,8 +249,9 @@ body {
 
 .problem_solution .card .card_number {
     color: #000;
-    font-size: 18px;
-    font-weight: 600;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 2px;
     margin-left: 4px;
     margin-right: 28px;
 }
@@ -628,8 +629,9 @@ body {
     .main-navigation .navbar-text {
         display: none;
     }
-
-
+    .review_block img.img_mobile {
+        display: none;
+    }
 }
 
 @media (min-width: 1441px) {
@@ -745,12 +747,23 @@ body {
 }
 
 @media screen and (max-width: 767px) {
+    body.custom-background.page-template-default {
+        background-image: url(http://toolsndies.loc/wp-content/uploads/2019/09/bg_hometop.png);
+        background-position: 50% 3%;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-attachment: scroll;
+    }
+    .site-header {
+        padding-top: 44px;
+    }
     .site-branding {
         flex-direction: column;
     }
     .site-branding .custom-logo-link img {
         margin-right: 0;
         margin-bottom: 10px;
+        margin-top: -10px;
     }
     .site-branding a {
         text-align: center;
@@ -758,12 +771,142 @@ body {
     .site-branding .logo_name {
         font-size: 36px;
     }
-    .happy_clients .row {
-        background-color: #ff3a20;
-        clip-path: polygon(0 45px, 65px 45px, 65px 0, 100% 0, 100% 100%, 0 100%);
+    .home_h1 h1 {
+        font-size: 46px;
+        margin-top: 60px;
     }
     .home_h1 h6 {
         margin-left: 50px;
+    }
+    .sub_title_center h5 {
+        font-size: 19px;
+        /*margin-bottom: 50px;*/
+    }
+    .sub_page_columns {
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+    .sub_page_columns > div {
+        padding-top: 140px;
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .problem_solution {
+        /*background: url(images/machine1.png) no-repeat center top,*/
+        /*    url(images/machine2.png) no-repeat 96% 0,*/
+        /*    url(images/machine3.png) no-repeat 35% 100%,*/
+        /*    url(images/machine4.png) no-repeat 95% 93%;*/
+        background: transparent;
+    }
+    .problem_solution .card .card-title {
+        font-size: 34px;
+        font-weight: 400;
+    }
+    .problem_solution .card {
+        margin: 0;
+        padding: 27px 27px 27px 16px;
+    }
+    .problem_solution .card .card_header {
+        line-height: 1.2;
+    }
+    .problem_solution .card .card_number {
+        margin-right: 14px;
+    }
+    .problem_solution .card .card-text + p {
+        font-size: 15px;
+        margin-bottom: 16px;
+    }
+    .problem_solution .card01 {
+        clip-path: polygon(0 13%, 13% 13%, 13% 0, 100% 0, 100% 100%, 0 100%);
+    }
+    .problem_solution .card01 .card-title {
+        letter-spacing: -1px;
+        margin-top: 0;
+    }
+    .sub_page_columns > div:first-child {
+        background: url(images/machine1mob.png) no-repeat center top;
+    }
+    .problem_solution .card01 {
+        margin-bottom: 5px;
+    }
+    .problem_solution .card02 {
+        clip-path: polygon(0 0, 87% 0, 87% 13%, 100% 13%, 100% 0, 100% 100%, 0 100%);
+    }
+    .sub_page_columns > div:nth-child(2) {
+        background: url(images/machine2mob.png) no-repeat center top;
+    }
+    .problem_solution .card02 .card-title {
+        margin-top: 0;
+    }
+    .problem_solution .card02 .card-text + p {
+        margin-left: 0;
+    }
+    .problem_solution .card02 .card-body .card-link {
+        margin-left: 0;
+    }
+/*    .sub_page_columns > div:nth-child(3) {
+        background: url(images/machine3mob.png) no-repeat center top;
+    }*/
+    .problem_solution .card03 {
+        clip-path: polygon(0 0, 87% 0, 87% 15%, 100% 15%, 100% 0, 100% 100%, 0 100%);
+    }
+    .problem_solution {
+        background: url(images/machine3mob.png) no-repeat 50% 57%;
+        margin-bottom: 15px;
+        padding-bottom: 0;
+    }
+    .problem_solution .card03 {
+        padding-top: 10px;
+    }
+    .problem_solution .card03 .card-text + p {
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .problem_solution .card03 .card-body .card-link {
+        margin-left: 0;
+    }
+    .problem_solution .card04 .card-text + p {
+        margin-right: 0;
+    }
+    .problem_solution .card04 {
+        clip-path: polygon(0 0, 100% 0, 100% 83%, 85% 83%, 85% 100%, 0 100%);
+    }
+    .sub_page_columns > div:nth-child(4) {
+        background: url(images/machine4mob.png) no-repeat 38% -27%;
+    }
+    .img_and_text .image_block img,
+    .img_and_text .text_block p,
+    .btn-wrap,
+    .sub_title_right,
+    .sub_title_right h6,
+    .review_block img {
+        margin-left: 0;
+        width: 100%;
+    }
+    .img_and_text > .row {
+        margin-bottom: 40px;
+    }
+    .img_and_text .text_block {
+        position: relative;
+        top: -40px;
+    }
+    .img_and_text .text_block p {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .sub_title_right h6 {
+        text-align: center;
+        top: 0;
+    }
+    .review_block img.img_desktop {
+        display: none;
+    }
+    .happy_clients .row {
+        background-color: #ff3a20;
+        clip-path: polygon(0 45px, 65px 45px, 65px 0, 100% 0, 100% 100%, 0 100%);
+        margin-left: 0;
+        margin-right: 0;
+        margin-bottom: 30px;
     }
     .menu-menu-1-container > ul {
         justify-content: flex-start;
@@ -785,7 +928,7 @@ body {
         justify-content: space-between;
         position: absolute;
         top: 0;
-        right: 0;
+        left: 0;
         padding: 0;
     }
     .main-navigation .menu_btn {
@@ -801,7 +944,7 @@ body {
         color: #fff;
         font-size: 16px;
         font-weight: 600;
-        margin-left: 20px;
+        margin-left: 40px;
     }
     .main-navigation button {
         /*background: #ff3a20;*/
@@ -809,12 +952,13 @@ body {
         border: none;
         border-radius: 0;
         height: 41px;
+        width: auto;
         z-index: 2;
     }
     .main-navigation ul {
         flex-direction: column;
         background-color: #ff3a20;
-        height: 100vh;
+        height: 102vh;
         width: 100vw;
         margin-right: -16px;
         margin-top: -50px !important;
@@ -831,21 +975,9 @@ body {
     .navbar-toggler.collapsed>.close, .navbar-toggler:not(.collapsed)>.navbar-toggler-icon {
         display:none;
     }
-    .home_h1 h1 {
-        font-size: 46px;
-        margin-top: 60px;
-    }
-    .problem_solution {
-        background: url(images/machine1.png) no-repeat 0% -1%,
-        url(images/machine2.png) no-repeat 96% 0,
-        url(images/machine3.png) no-repeat 35% 100%,
-        url(images/machine4.png) no-repeat 95% 93%;
-    }
-    .problem_solution .card .card-title {
-        font-size: 28px;
-    }
     .home_2nd_title h2 {
         font-size: 38px;
+        margin-bottom: 35px;
     }
     .menu-menu-1-container .mobile_menu_email > a {
         font-size: 15px;
@@ -853,10 +985,21 @@ body {
         border-bottom: 2px solid #000;
         text-decoration: none;
     }
+    .footer_logo_social {
+        text-align: center;
+    }
+    .custom-footer .row .footer_menu_2 {
+        margin-left: 0;
+    }
 }
 
 @media screen and (max-width: 575px) {
-
+    .main-navigation {
+        /*left: 1%;*/
+    }
+    .main-navigation .contact_link {
+        margin-left: 20px;
+    }
 }
 
 /* min-width and max-width */

@@ -26,7 +26,8 @@
     </div>-->
     <div class="sub_title_center container">
         <div class="row">
-            <div class="offset-lg-3 col-lg-6 col-md-12 text-center">
+<!--            <div class="offset-lg-3 col-lg-6 col-md-12 text-center">-->
+            <div class="offset-lg-3 col-lg-6 offset-md-2 col-md-8 offset-sm-2 col-sm-8 offset-1 col-10 text-center">
                 <h5><?php the_field('sub_title_center'); ?></h5>
             </div>
         </div>
@@ -84,7 +85,7 @@
                     <span class="btn-wrap">
                         <a href="<?php the_field('link_to_expertise'); ?>" type="" class="btn btn-link">ONTDEK ONZE EXPERTISE →</a>
                     </span>
-                    <hr>
+<!--                    <hr>-->
                 </div>
             </div>
             <div class="row">
@@ -94,7 +95,8 @@
             </div>
             <div class="row">
                 <div class="review_block col-lg-12">
-                    <img src="<?php the_field('review_image'); ?>" alt="">
+                    <img class="img_desktop" src="<?php the_field('review_image'); ?>" alt="">
+                    <img class="img_mobile" src="<?php the_field('review_image_mobile'); ?>" alt="">
                 </div>
             </div>
             <div class="contact_dark_btn row justify-content-center">
