@@ -20,33 +20,30 @@
 <body <?php body_class(); ?>>
 <div id="page" class="site">
 	<header id="masthead" class="site-header">
+
+
         <div class="container">
-            <div class="row">
-                <div class="site-branding col-lg-4 col-md-12 col-sm-12">
+            <div class="head row">
+                <div class="site-branding col-lg-4 col-md-12 col-sm-12 col-12">
                     <?php the_custom_logo(); ?>
                     <div class="logo_name">Tools&Dies</div>
                 </div><!-- .site-branding -->
-
-                <nav id="site-navigation" class="main-navigation navbar navbar-expand-md navbar-dark bg-transparent col-lg-8 col-md-12 col-sm-12">
-                    <span><span><a href="#" class="contact_link">Contact</a></span></span>
-                    <div class="menu_btn">
-                        <span class="navbar-text">Menu</span>
-                        <button class="navbar-toggler navbar-toggler-right collapsed third-button" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-                           <!-- <span class="my-1 mx-2 close">X</span>
-                            <span class="navbar-toggler-icon"></span>-->
-                            <div class="animated-icon3"><span></span><span></span><span></span></div>
-                        </button>
-                    </div>
-                    <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <div id="site-navigation" class="menu-wrap col-lg-8 col-md-12 col-sm-12 col-12">
                         <?php wp_nav_menu( array(
                             'theme_location' => 'menu-1',
                             'menu_id'        => 'primary-menu',
                         ) );
                         ?>
                     </div>
-                </nav><!-- #site-navigation -->
             </div>
         </div><!-- .contaner -->
+        <div class="mobile-menu">
+            <span class="menu_mob_contact"><span><a class="contact_link" href="http://toolsndies.loc/contact/">Contact</a></span></span>
+            <span class="menu_mob_txt">Menu</span>
+            <a href="" class="menu-btn">
+                <span></span>
+            </a>
+        </div>
 	</header><!-- #masthead -->
 
 	<div id="content" class="site-content">

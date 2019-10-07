@@ -10,19 +10,18 @@
 <div class="custom-footer">
     <div class="container">
         <div class="row">
-            <div class="footer_logo_social col-lg-6 col-md-7">
+            <div class="footer_logo_soc col-lg-6">
                 <?php
                 if ( function_exists('dynamic_sidebar') )
                     dynamic_sidebar('footer-1');
                 ?>
             </div>
-            <div class="footer_menu_2 col-lg-6 col-md-5">
+            <div class="footer_menu_contacts col-lg-6">
                 <?php
                 if ( function_exists('dynamic_sidebar') )
-                    dynamic_sidebar('footer-2');
+                    dynamic_sidebar('footer-3');
                 ?>
             </div>
-
         </div>
     </div>
     <?php
@@ -46,21 +45,11 @@
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 
 <script>
-    $(document).ready(function () {
-
-/*        $('.first-button').on('click', function () {
-
-            $('.animated-icon1').toggleClass('open');
-        });
-        $('.second-button').on('click', function () {
-
-            $('.animated-icon2').toggleClass('open');
-        });*/
-        $('.third-button').on('click', function () {
-
-            $('.animated-icon3').toggleClass('open');
-        });
-    });
+    $('.menu-btn').on('click', function (e) {
+        e.preventDefault();
+        $(".menu-btn").toggleClass("menu-active");
+        $(".menu-wrap").toggleClass("menu-active");
+    })
 </script>
 
 
