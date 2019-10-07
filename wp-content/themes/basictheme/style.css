@@ -207,7 +207,6 @@ body {
     border-radius: unset;
     color: #646464;
     margin-bottom: 1.25rem;
-    /*padding: 28px 30px 38px 32px;*/
     padding: 15px;
 }
 
@@ -616,7 +615,7 @@ body {
     text-transform: uppercase;
 }
 
-.site-footer .site-info p span {
+.site-footer .site-info p span.gap {
     padding-left: 15px;
     padding-right: 15px;
 }
@@ -624,6 +623,21 @@ body {
 .site-footer .site-info a {
     color: #000;
 }
+.site-info .under_line a {
+    display: inline-block;
+    position: relative;
+}
+
+.site-info .under_line a:after {
+    content: "";
+    position: absolute;
+    margin: 20px auto;
+    background: #b3b3b3;
+    height: 1px;
+    width: 90%;
+    left: 5%;
+}
+
 
 /* Media Queries */
 /* min-width */
@@ -700,17 +714,17 @@ body {
     #custom_html-6 {
         order: 1;
     }
-    custom_html-7 {
+    #custom_html-7 {
         order: 0;
+    }
+    .column_footer_contact:last-child a {
+        margin-left: 0;
     }
 }
 
 @media screen and (max-width: 991px) {
     .site-branding {
         justify-content: center;
-    }
-    .site-branding .logo_name {
-        /*display: none;*/
     }
     .site-branding .custom-logo-link {
         text-align: center;
@@ -781,9 +795,6 @@ body {
         background-size: contain;
         background-repeat: no-repeat;
         background-attachment: scroll;
-    }
-    .site-header {
-        /*padding-top: 44px;*/
     }
     .site-branding {
         flex-direction: column;
@@ -989,7 +1000,6 @@ body {
     .mobile-menu .contact_link:after {
         content: "";
         position: absolute;
-        /* left: 39px; */
         bottom: 0;
         right: 0;
         margin: 3px auto;
@@ -1073,24 +1083,12 @@ body {
         font-size: 12px;
         line-height: 2;
     }
-    .site-info > p > span {
+    .site-info > p > span.gap {
         display: none;
-    }
-    .site-info a:after {
-        content: "";
-        position: absolute;
-        margin: 20px auto;
-        background: #b3b3b3;
-        height: 1px;
-        width: 98px;
-        left: 44%;
     }
 }
 
 @media screen and (max-width: 575px) {
-    .main-navigation {
-        /*left: 1%;*/
-    }
     .main-navigation .contact_link {
         margin-left: 20px;
     }
@@ -1134,14 +1132,12 @@ body {
     width: 54px;
     height: 54px;
     background: #ff3a20;
-    /*border-radius: 50px;*/
     position: relative;
 }
 .menu-btn span, .menu-btn span:before, .menu-btn span:after {
     display: block;
     width: 34px;
     height: 5px;
-    /*border-radius: 6px;*/
     background: #fff;
     position: absolute;
     top: 50%;
@@ -1162,9 +1158,6 @@ body {
 }
 
 @media screen and (max-width: 767px) {
-    .logo {
-        /*display: none;*/
-    }
     .mobile-menu {
         display: block;
     }
@@ -1202,7 +1195,6 @@ body {
         position: absolute;
         top: 0;
         left: 0;
-        /*background: #ff3a20;*/
         width: 100%;
         height: 100vh;
     }
@@ -1224,7 +1216,6 @@ body {
         position: absolute;
         left: 0;
         top: 0;
-        /*z-index: -1;*/
     }
     .menu_mob_txt {
         font-size: 16px;

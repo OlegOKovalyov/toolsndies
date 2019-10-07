@@ -38,7 +38,7 @@
             </div>
         </div><!-- .contaner -->
         <div class="mobile-menu">
-            <span class="menu_mob_contact"><span><a class="contact_link" href="http://toolsndies.loc/contact/">Contact</a></span></span>
+            <span class="menu_mob_contact"><span><a class="contact_link" href="contact">Contact</a></span></span>
             <span class="menu_mob_txt">Menu</span>
             <a href="" class="menu-btn">
                 <span></span>

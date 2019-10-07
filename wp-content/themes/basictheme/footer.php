@@ -7,34 +7,38 @@
 	</div><!-- #content -->
 
 
-<div class="custom-footer">
-    <div class="container">
-        <div class="row">
-            <div class="footer_logo_soc col-lg-6">
-                <?php
-                if ( function_exists('dynamic_sidebar') )
-                    dynamic_sidebar('footer-1');
-                ?>
-            </div>
-            <div class="footer_menu_contacts col-lg-6">
-                <?php
-                if ( function_exists('dynamic_sidebar') )
-                    dynamic_sidebar('footer-3');
-                ?>
+    <div class="custom-footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer_logo_soc col-lg-6">
+                    <?php
+                    if ( function_exists('dynamic_sidebar') )
+                        dynamic_sidebar('footer-1');
+                    ?>
+                </div>
+                <div class="footer_menu_contacts col-lg-6">
+                    <?php
+                    if ( function_exists('dynamic_sidebar') )
+                        dynamic_sidebar('footer-3');
+                    ?>
+                </div>
             </div>
         </div>
+        <?php
+        if ( function_exists('dynamic_sidebar') )
+            dynamic_sidebar('footer-widget');
+        ?>
     </div>
-    <?php
-    if ( function_exists('dynamic_sidebar') )
-        dynamic_sidebar('footer-widget');
-    ?>
-</div>
-
 
 	<footer id="colophon" class="site-footer">
 		<div class="site-info text-center">
-            <p>© Tools&Dies 2019<span>/</span> <a href="">Algemene Voorwaarden</a><span>/</span> <a
-                            href="">Privacy Polisy</a></p>
+            <p>© Tools&Dies 2019<span class="gap">/</span>
+                <span class="under_line">
+                        <a href="">Algemene Voorwaarden</a>
+                </span><span class="gap">/</span>
+                <span class="under_line">
+                        <a href="">Privacy Polisy</a>
+                </span></p>
 		</div><!-- .site-info -->
 	</footer><!-- #colophon -->
 </div><!-- #page -->
