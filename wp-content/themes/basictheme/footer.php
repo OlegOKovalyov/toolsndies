@@ -38,7 +38,8 @@
                 </span><span class="gap">/</span>
                 <span class="under_line">
                         <a href="">Privacy Polisy</a>
-                </span></p>
+                </span>
+            </p>
 		</div><!-- .site-info -->
 	</footer><!-- #colophon -->
 </div><!-- #page -->

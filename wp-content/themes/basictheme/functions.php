@@ -127,6 +127,11 @@ function logo_email_menu_item ( $items, $args ) {
 }
 
 /**
+ * Load Theme Admin Panel Settings file.
+ */
+include('inc/settings.php');
+
+/**
  * Trim pages titles.
  */
 function trim_title_chars($count, $after) {
@@ -135,3 +140,8 @@ function trim_title_chars($count, $after) {
     else $after = '';
     echo $title . $after;
 }
+
+
+
+
+

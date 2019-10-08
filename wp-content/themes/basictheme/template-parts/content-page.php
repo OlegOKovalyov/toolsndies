@@ -19,14 +19,9 @@
             </div>
         </div>
     </div>
-<!--    <div class="our_clients container-fluid">
-        <div class="row d-flex justify-content-center">
-            <img src="<?php /*the_field('clients_image'); */?>" alt="Our clients">
-        </div>
-    </div>-->
+
     <div class="sub_title_center container">
         <div class="row">
-<!--            <div class="offset-lg-3 col-lg-6 col-md-12 text-center">-->
             <div class="offset-lg-3 col-lg-6 offset-md-2 col-md-8 offset-sm-2 col-sm-8 offset-1 col-10 text-center">
                 <h5><?php the_field('sub_title_center'); ?></h5>
             </div>
@@ -111,12 +106,45 @@ if (is_page('contact')): ?>
     <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
         <div class="contact_h1_form container">
             <div class="row">
-                <div class="col-lg-5 col-md-6 col-sm-12">
+                <div class="col-lg-5 col-md-12">
                     <h1 class="tk-orpheuspro"><?php the_field('contact_title'); ?></h1>
                     <h6><?php the_field('sub_title'); ?></h6>
+                    <div class="looking_else">
+                        <h4>WAS U OP ZOEK NAAR IETS ANDERS?</h4>
+                        <p>Wilt u een offerte aanvragen voor fijnmechanisch stukwerk?</p>
+                        <a href="<?php the_field('link_to_expertise'); ?>" type="" class="btn_question btn btn-link">VRAAG HIER EEN OFFERTE AAN  →</a>
+                    </div>
+                    <div class="looking_job">
+                        <p>Ben je op zoek naar een (vakantie)job of stageplek?</p>
+                        <a href="<?php the_field('link_to_expertise'); ?>" type="" class="btn_question btn btn-link">BEZOEK ONZE JOBS PAGINA →</a>
+                    </div>
                 </div>
-                <div class="col-lg-7 col-md-6 col-sm-12">
-                    Здесь будет форма
+                <div class="offset-lg-1 col-lg-6 col-md-12">
+                    <?php echo do_shortcode( '[contact-form-7 id="156" title="Your Question"]' ); ?>
+                </div>
+            </div>
+        </div>
+        <div class="mail_logo_phone container">
+            <div class="row">
+                <div class="col">
+                    <div class="email">
+                        <?php $value = basic_get_theme_option( 'email' ); echo $value; ?>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="logo">
+                        <?php the_custom_logo(); ?>
+                    </div>
+                </div>
+                <div class="addr_tel_fax col">
+                    <div class="address">
+                        <div><?php $value = basic_get_theme_option( 'addr1' ); echo $value; ?></div>
+                        <div><?php $value = basic_get_theme_option( 'addr2' ); echo $value; ?></div>
+                    </div>
+                    <div class="phone">
+                        <div><span>Tel:<?php $value = basic_get_theme_option( 'phone' ); echo $value; ?></span></div>
+                        <div><span>Fax:<?php $value = basic_get_theme_option( 'fax' ); echo $value; ?></span></div>
+                    </div>
                 </div>
             </div>
         </div>

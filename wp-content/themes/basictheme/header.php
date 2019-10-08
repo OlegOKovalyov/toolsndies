@@ -20,8 +20,6 @@
 <body <?php body_class(); ?>>
 <div id="page" class="site">
 	<header id="masthead" class="site-header">
-
-
         <div class="container">
             <div class="head row">
                 <div class="site-branding col-lg-4 col-md-12 col-sm-12 col-12">

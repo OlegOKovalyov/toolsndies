@@ -331,10 +331,19 @@ body {
 }
 
 .entry-content {
-    margin-bottom: 93px;
+    margin-bottom: 96px;
 }
 
 .entry-content .btn-primary {
+    /*font-size: 1rem;
+    background-color: #ff3a20;
+    border-color: #ff3a20;
+    border-radius: unset;
+    letter-spacing: 5.5px;
+    text-transform: uppercase;*/
+}
+
+.btn-primary {
     font-size: 1rem;
     background-color: #ff3a20;
     border-color: #ff3a20;
@@ -348,6 +357,12 @@ body {
 }
 
 .contact_btn .btn-lg {
+    /*padding: 1rem;
+    padding-bottom: 1.3rem;
+    margin-left: -10px;*/
+}
+
+.btn-lg {
     padding: 1rem;
     padding-bottom: 1.3rem;
     margin-left: -10px;
@@ -574,7 +589,7 @@ body {
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: stretch;
-    margin-top: 24px;
+    margin-top: 22px;
 }
 
 .footer_menu_contacts #custom_html-5 {
@@ -582,7 +597,8 @@ body {
 }
 
 .footer_menu_contacts #custom_html-6,
-.footer_menu_contacts #custom_html-7 {
+.footer_menu_contacts #custom_html-7,
+.footer_menu_contacts #safephpcode-2 {
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
@@ -640,7 +656,7 @@ body {
 
 
 /* Media Queries */
-/* min-width */
+/* @media min-width */
 @media screen and (min-width: 768px) {
     .logo_mobile_menu,
     .mobile_menu_email,
@@ -663,7 +679,7 @@ body {
     }
 }
 
-/* max-width */
+/* @media max-width */
 @media screen and (max-width: 1440px) {
     .happy_clients .row {
         margin-left: -15px;
@@ -978,7 +994,7 @@ body {
         vertical-align: bottom;
     }
 
-/****** Mobile Menu ********/
+/****** Mobile Menu @media (max-width: 767px) ********/
     .mobile-menu .contact_link {
         color: #fff;
         font-size: 16px;
@@ -1022,8 +1038,7 @@ body {
         text-align: center;
         width: 100%;
     }
-/********************/
-
+/********* /Mobile Menu @media (max-width: 767px) ***********/
 
     .main-navigation button {
         background-color: #000;
@@ -1094,15 +1109,14 @@ body {
     }
 }
 
-/* min-width and max-width */
+/* @media min-width and max-width */
 @media (min-width: 1200px) and (max-width: 1279px) {
     .container {
         width: 1140px;
     }
 }
 
-
-/* Top Adaptive menu */
+/* Top Adaptive menu without navbar */
 .head {
     display: -webkit-flex;
     display: -moz-flex;
@@ -1234,10 +1248,11 @@ body {
         z-index: -1;
     }
 }
-/* /Top Adaptive menu */
+/* /Top Adaptive menu without navbar */
 
 
 /* ------ CONTACT PAGE -------------------- */
+/* contact_h1_form */
 body.page-id-133.custom-background {
     background-image: url(images/bg_contacttop.png);
     background-position: right top;
@@ -1246,10 +1261,166 @@ body.page-id-133.custom-background {
     background-attachment: scroll;
 }
 
+.contact_h1_form .looking_else,
+.contact_h1_form .looking_job {
+    background: #ff3a20;
+    margin-left: 5px;
+    margin-bottom: 20px;
+    width: 117%;
+}
+
+.contact_h1_form .looking_job {
+    clip-path: polygon(0 0, 100% 0, 100% 64%, 92% 64%, 92% 100%, 0 100%);
+}
+
+.contact_h1_form .looking_else h4 {
+    color: #000;
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 2.7px;
+    line-height: 25px;
+    margin-bottom: 15px;
+    padding-top: 29px;
+    padding-left: 31px;
+    text-transform: uppercase;
+}
+
+.contact_h1_form .looking_else p,
+.contact_h1_form .looking_job p {
+    letter-spacing: 0.3px;
+    margin-bottom: 0;
+    padding-left: 31px;
+}
+
+.contact_h1_form .looking_job p {
+    padding-top: 1rem;
+}
+
+.contact_h1_form .looking_else .btn_question,
+.contact_h1_form .looking_job .btn_question {
+    color: #ffffff;
+    font-size: 19px;
+    font-weight: 500;
+    letter-spacing: 4.3px;
+    text-transform: uppercase;
+    padding-left: 31px;
+    padding-bottom: 15px;
+}
+
+.contact_h1_form .looking_job .btn_question {
+    padding-bottom: 27px;
+}
+
 .contact_h1_form {
     margin-top: 150px;
+    margin-bottom: 153px;
 }
 
 .contact_h1_form h1 {
     font-size: 83px;
+    letter-spacing: 2px;
+    line-height: 0.95;
+    margin-bottom: 57px;
+}
+
+.contact_h1_form h2 {
+    color: #000;
+    font-size: 47px;
+    letter-spacing: 1.3px;
+    line-height: 76px;
+    margin-top: 28px;
+    margin-left: 14px;
+    margin-bottom: 19px;
+}
+
+.contact_h1_form form {
+    /*background: #d3d3d3;*/
+    background-image: linear-gradient(to top, #ffffff 0%, rgba(255, 255, 255, 0.75) 100%);
+    padding-top: 1px;
+    padding-bottom: 68px;
+}
+
+.contact_h1_form .form-group {
+    font-family: "stratos",sans-serif;
+    margin-left: 50px;
+    margin-bottom: 12px;
+    /*width: 303px;*/
+    max-width: 53%;
+}
+
+.contact_h1_form .form-group input {
+    background: transparent;
+    border: 1px solid #fff;
+    border-radius: 0;
+}
+
+.contact_h1_form .form-group input::placeholder {
+    font-family: "stratos",sans-serif;
+    font-size: 18px;
+    letter-spacing: -0.35px;
+}
+
+.contact_h1_form .form-group textarea {
+    background: transparent;
+    border: 1px solid #fff;
+    border-radius: 0;
+    width: 155%;
+    height: 132px;
+    padding-top: 15px;
+    padding-left: 20px;
+}
+
+.contact_h1_form .form-group p {
+    opacity: 0.5;
+    color: #000;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: -0.5px;
+    line-height: 25px;
+    margin-left: 24px;
+}
+
+.contact_h1_form .btn_form {
+    margin-top: 13px;
+    height: 64px;
+    margin-left: 51px;
+    padding-left: 1.4rem;
+    padding-right: 1.4rem;
+}
+
+/* mail_logo_phone */
+.mail_logo_phone {
+    padding-bottom: 142px;
+}
+.mail_logo_phone .row {
+    align-items: center;
+}
+.mail_logo_phone .email {
+    border-bottom: 2px solid #ff3a20;
+    display: inline-block;
+    font-size: 30px;
+    font-weight: 500;
+    padding-bottom: 15px;
+}
+
+.mail_logo_phone .logo {
+    text-align: center;
+}
+
+.mail_logo_phone .logo img {
+    width: 70%;
+    height: auto;
+}
+
+.mail_logo_phone .addr_tel_fax {
+    display: flex;
+    justify-content: space-between;
+}
+
+@media screen and (max-width: 991px) {
+    .contact_h1_form .looking_else,
+    .contact_h1_form .looking_job,
+    .contact_h1_form .form-group{
+        width: 100%;
+    }
 }
