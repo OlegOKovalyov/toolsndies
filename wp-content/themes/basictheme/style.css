@@ -363,7 +363,7 @@ body {
 }
 
 .btn-lg {
-    padding: 1rem;
+    padding: 1rem 0.3rem;
     padding-bottom: 1.3rem;
     margin-left: -10px;
 }
@@ -1538,4 +1538,191 @@ body.page-id-133.custom-background {
         font-size: small;
         margin-left: 15px;
     }
+}
+
+
+/* ------ RE-ENGINEERING PAGE -------------------- */
+/* re-engineer_h1 */
+.re-engineer_h1 h1 {
+    font-size: 83px;
+    letter-spacing: 5px;
+    line-height: 0.93;
+    margin-top: 150px;
+    margin-bottom: 50px;
+}
+
+/* design_product */
+.design_product {
+    margin-bottom: -15px;
+}
+
+.design_product .row {
+    align-items: flex-start;
+}
+
+.design_product .text_block_wrap {
+    clip-path: polygon(0 0, 100% 0, 100% 88%, 92% 88%, 92% 100%, 0 100%);
+    background: #ff3a20;
+    /*margin-left: 15px;*/
+    margin-bottom: 55px;
+    max-width: 550px;
+}
+
+.design_product .text_block h6 {
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 3.72px;
+    padding-left: 30px;
+    text-transform: uppercase;
+}
+
+.design_product h4 {
+    color: #000;
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 2.3px;
+    line-height: 25px;
+    margin-bottom: 9px;
+    padding-top: 23px;
+    padding-left: 31px;
+    text-transform: uppercase;
+}
+
+.design_product p {
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: -0.6px;
+    line-height: 25px;
+    margin-bottom: 0;
+    padding-left: 32px;
+    padding-right: 48px;
+    padding-bottom: 26px;
+}
+
+.design_product .img_block img {
+    width: 91%;
+    margin-left: 60px;
+    margin-top: -81px;
+}
+
+/*our_advantages */
+.our_advantages {
+    background: #fff url(images/img_card01.png) no-repeat 22% 45%;
+                /*url(images/machine2.png) no-repeat 96% 0,
+                url(images/machine3.png) no-repeat -85% 100%,
+                url(images/machine4.png) no-repeat 95% 93%;*/
+}
+
+.our_advantages_wrap {
+    /*background: #fff url(images/img_card01.png) no-repeat 0% -1%;*/
+}
+
+.our_advantages_wrap .left_column {
+    /*background: #fff url(images/img_card01.png) no-repeat 0% -1%;*/
+    padding-top: 130px;
+    padding-left: 138px;
+}
+
+.our_advantages .card {
+    border: none;
+    border-radius: 0;
+    margin-left: 19px;
+    margin-bottom: 97px;
+}
+
+.our_advantages .card05 {
+    margin-bottom: 72px;
+}
+
+.our_advantages .card-body {
+    padding-top: 0;
+    padding-left: 0;
+}
+
+.our_advantages .card_number {
+    color: #000;
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    margin-right: 10px;
+}
+
+.our_advantages .card_header {
+    margin-bottom: 18px;
+}
+
+.our_advantages .card-title {
+    color: #ff3a20;
+    font-family: "orpheuspro",serif;
+    font-size: 47px;
+    font-weight: 400;
+    letter-spacing: -0.6px;
+    line-height: 46px;
+}
+
+.our_advantages p {
+    color: #646464;
+    font-size: 18px;
+    font-weight: 300;
+    letter-spacing: -0.35px;
+    line-height: 25px;
+    padding-right: 18px;
+}
+
+.our_advantages_wrap .right_column {
+    padding-top: 269px;
+    padding-left: 129px;
+}
+
+.our_advantages .contact_btn {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 73px;
+}
+
+.our_advantages .contact_btn:before,
+.our_advantages .contact_btn:after {
+    content: '';
+    /*border-top: 2px solid #000;*/
+    border: 2px solid #d4d4d4;
+    margin: 0 30px 0 0;
+    flex: 1 0 20px;
+}
+
+.our_advantages .contact_btn:after {
+    margin: 0 0 0 20px;
+}
+
+.our_advantages h2 {
+    color: #000;
+    font-size: 83px;
+    line-height: 78px;
+    margin-bottom: -15px;
+    text-align: center;
+}
+
+.our_advantages h5 {
+    color: #ff3a20;
+    font-family: "orpheuspro",serif;
+    font-size: 47px;
+    font-weight: 400;
+    letter-spacing: -0.6px;
+    line-height: 46px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.our_advantages .we_are_experts {
+    margin-bottom: 73px;
+}
+
+.our_advantages .our_clients_logo {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
 }
