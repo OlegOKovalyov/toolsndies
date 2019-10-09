@@ -118,9 +118,10 @@ require get_template_directory() . '/inc/customizer.php';
 add_filter( 'wp_nav_menu_items', 'logo_email_menu_item', 10, 2 );
 function logo_email_menu_item ( $items, $args ) {
     if ($args->theme_location == 'menu-1') {
-        $logo_menu_url = get_field('mobile_logo');
-        $items .= '<li class="logo_mobile_menu"><a href="http://toolsndies.loc"><img src="'. $logo_menu_url . '" alt=""></a></li>';
-        $mailto_mobile = get_field('mobile_email');
+        $logo_menu_url = get_bloginfo('template_url') . '/images/logo_moblie.png';
+        $items .= '<li class="logo_mobile_menu"><a href="/"><img src="'. $logo_menu_url . '" alt=""></a></li>';
+        $mailto_mobile = basic_get_theme_option( 'email' );
+//        $items .= '<li class="mobile_menu_email"><a href="'. 'mailto:' . $mailto_mobile . '">' . $mailto_mobile . '</a></li>';
         $items .= '<li class="mobile_menu_email"><a href="'. 'mailto:' . $mailto_mobile . '">' . $mailto_mobile . '</a></li>';
     }
     return $items;
