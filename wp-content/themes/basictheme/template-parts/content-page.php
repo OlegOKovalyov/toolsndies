@@ -126,17 +126,17 @@ if (is_page('contact')): ?>
         </div>
         <div class="mail_logo_phone container">
             <div class="row">
-                <div class="col">
+                <div class="mail_col col-12 col-md-4">
                     <div class="email">
                         <?php $value = basic_get_theme_option( 'email' ); echo $value; ?>
                     </div>
                 </div>
-                <div class="col">
+                <div class="col-12 col-md-4">
                     <div class="logo">
                         <?php the_custom_logo(); ?>
                     </div>
                 </div>
-                <div class="addr_tel_fax col">
+                <div class="addr_tel_fax col-12 col-md-4">
                     <div class="address">
                         <div><?php $value = basic_get_theme_option( 'addr1' ); echo $value; ?></div>
                         <div><?php $value = basic_get_theme_option( 'addr2' ); echo $value; ?></div>

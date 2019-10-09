@@ -727,6 +727,12 @@ body {
     #custom_html-4 .footer_contact {
         margin-left: 0;
     }
+    .footer_menu_contacts #custom_html-5 {
+        margin-top: 0;
+    }
+    #nav_menu-5, #custom_html-5 {
+        margin-bottom: 0;
+    }
     #custom_html-6 {
         order: 1;
     }
@@ -826,6 +832,9 @@ body {
     .site-branding .logo_name {
         font-size: 36px;
         display: block;
+    }
+    .site-content article {
+        background: transparent;
     }
     .home_h1 h1 {
         font-size: 46px;
@@ -1084,6 +1093,13 @@ body {
     .custom-footer .row .footer_menu_2 {
         margin-left: 0;
     }
+    .footer_menu_contacts #safephpcode-2 {
+        align-items: center;
+        width: 100%;
+    }
+    .footer_menu_contacts #safephpcode-2 a {
+        text-align: center;
+    }
     .footer_contact .column_footer_contact:last-child {
         text-align: center;
         width: 100%;
@@ -1107,12 +1123,21 @@ body {
     .main-navigation .contact_link {
         margin-left: 20px;
     }
+    #custom_html-6, #safephpcode-2 {
+        width: initial;
+    }
 }
 
 /* @media min-width and max-width */
 @media (min-width: 1200px) and (max-width: 1279px) {
     .container {
         width: 1140px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    #custom_html-6, #safephpcode-2 {
+        margin-bottom: 0;
     }
 }
 
@@ -1158,6 +1183,7 @@ body {
     left: 50%;
     margin-left: -17px;
     margin-top: -3px;
+    /* Another hamburger menu transition style: */
     /* transition: all cubic-bezier(0.26, 0.1, 0.27, 1.55) 0.65s; */
     transition: all 0.4s linear;
 }
@@ -1334,7 +1360,6 @@ body.page-id-133.custom-background {
 }
 
 .contact_h1_form form {
-    /*background: #d3d3d3;*/
     background-image: linear-gradient(to top, #ffffff 0%, rgba(255, 255, 255, 0.75) 100%);
     padding-top: 1px;
     padding-bottom: 68px;
@@ -1344,7 +1369,6 @@ body.page-id-133.custom-background {
     font-family: "stratos",sans-serif;
     margin-left: 50px;
     margin-bottom: 12px;
-    /*width: 303px;*/
     max-width: 53%;
 }
 
@@ -1417,10 +1441,83 @@ body.page-id-133.custom-background {
     justify-content: space-between;
 }
 
+@media screen and (max-width: 1199px) {
+    .contact_h1_form {
+        margin-top: 70px;
+        margin-bottom: 70px;
+    }
+    .contact_h1_form h1 {
+        font-size: 52px;
+    }
+    .mail_logo_phone .email {
+        font-size: 18px;
+        padding-bottom: 3px;
+    }
+    .mail_logo_phone .logo img {
+        max-width: 30%;
+    }
+    .mail_logo_phone .addr_tel_fax {
+        font-size: smaller;
+    }
+    .mail_logo_phone {
+        padding-bottom: 70px;
+    }
+}
+
 @media screen and (max-width: 991px) {
     .contact_h1_form .looking_else,
     .contact_h1_form .looking_job,
     .contact_h1_form .form-group{
         width: 100%;
+    }
+    .addr_tel_fax {
+        flex-direction: column;
+    }
+    .addr_tel_fax .address {
+        margin-bottom: 15px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .contact_h1_form {
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+    .contact_h1_form h1 {
+        font-size: 46px;
+        margin-bottom: 60px;
+    }
+    .contact_h1_form .looking_else, .contact_h1_form .looking_job {
+        margin-left: 0;
+    }
+    .contact_h1_form .form-group {
+        max-width: 80%;
+    }
+    .contact_h1_form .form-group textarea {
+        max-width: 100%;
+    }
+    .mail_logo_phone .logo img {
+        max-width: 20%;
+        margin-bottom: 15px;
+    }
+    .mail_logo_phone .mail_col {
+        order: 1;
+    }
+    .addr_tel_fax, .mail_col {
+        text-align: center;
+    }
+    .addr_tel_fax {
+        margin-bottom: 20px;
+    }
+}
+
+@media screen and (max-width: 575px) {
+    .contact_h1_form .form-group {
+        margin-left: 15px;
+        max-width: 90%;
+    }
+    .contact_h1_form .btn_form {
+        font-size: small;
+        margin-left: 15px;
     }
 }
