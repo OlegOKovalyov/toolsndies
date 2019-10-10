@@ -1878,6 +1878,11 @@ body.page-id-42.custom-background {
 }
 
 @media screen and (max-width: 991px) {
+    .page-id-42 .current-menu-parent > a:after {
+        width: 71%;
+        left: 31%;
+        top: 21%;
+    }
     .design_product .text_block_wrap {
         max-width: unset;
     }
@@ -1952,4 +1957,153 @@ body.page-id-42.custom-background {
         background-color: transparent;
         padding-left: unset;
     }
+}
+
+
+/* ------ JOBS PAGE -------------------- */
+/* GENERAL SPECIFICATION */
+h1 {
+    font-family: "orpheuspro",serif;
+    font-size: 83px;
+    font-weight: 400;
+    letter-spacing: 5px;
+    line-height: 0.93;
+}
+
+h2 {
+    font-family: "orpheuspro",serif;
+    font-size: 83px;
+    font-weight: 400;
+    letter-spacing: 3.5px;
+    line-height: 0.95;
+}
+
+h4 {
+    color: #000;
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 2.3px;
+    line-height: 25px;
+    text-transform: uppercase;
+}
+
+.red_text_block {
+    clip-path: polygon(0 0, 100% 0, 100% 76%, 92% 76%, 92% 100%, 0 100%);
+    background: #ff3a20;
+}
+
+/* jobs_h1 */
+body.page-id-86.custom-background {
+    background-image: url(images/bg_contacttop.png);
+    background-position: right top;
+    background-size: 56.3%;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+}
+
+.page-id-86 .current-menu-parent {
+    position: relative;
+}
+
+.page-id-86 .current-menu-parent > a:after {
+    content: "";
+    position: absolute;
+    margin: 20px auto;
+    background: #fff;
+    height: 5px;
+    width: 80%;
+    left: 12%;
+    top: 47%;
+}
+
+#menu-item-86 > ul.sub-menu {
+    display: none;
+}
+
+.jobs_h1 h1 {
+    margin-top: 153px;
+    margin-bottom: 32px;
+}
+
+.jobs_h1 .red_text_block {
+    display: flex;
+    justify-content: flex-start;
+    margin-right: 21px;
+    padding: 25px 29px 15px 29px;
+    margin-bottom: 66px;
+}
+
+.work-description-title,
+.work-description-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.work-description-title h4 {
+    margin-right: 26px;
+}
+
+.work-description-item p {
+    margin-bottom: 0.5rem;
+    font-size: 17px;
+}
+
+/* job_info */
+.job_info {
+    color: #000;
+    background-color: #fff;
+    margin-left: 10px;
+}
+
+.job_info .your_description {
+    margin-top: 74px;
+    margin-bottom: 46px;
+}
+
+.job_info .your_profile {
+    margin-bottom: 34px;
+}
+
+.job_info .your_benefits {
+    margin-bottom: 43px;
+}
+
+.job_info h2 {
+    color: #000;
+    margin-bottom: 18px;
+}
+
+.job_info p {
+    color: #646464;
+    font-size: 18px;
+    font-weight: 300;
+    letter-spacing: -0.35px;
+    line-height: 25px;
+}
+
+.job_info .contact_person {
+    display: flex;
+}
+
+.job_info .contact_person img {
+    margin-right: 23px;
+    margin-left: 8px;
+}
+
+.job_info .contact_person .cp_name {
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: -0.35px;
+    line-height: 25px;
+    margin-top: -3px;
+    margin-bottom: 5px;
+}
+
+.job_info .contact_person .cp_position {
+    color: #ff3a20;
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: -0.35px;
+    line-height: 25px;
 }

@@ -101,6 +101,7 @@
 </article>
 <?php endif;
 
+
 if (is_page('contact')): ?>
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
     <div class="contact_h1_form container">
@@ -149,6 +150,7 @@ if (is_page('contact')): ?>
     </div>
 </article>
 <?php endif;
+
 
 if (is_page('re-engineering-aanmaak')): ?>
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
@@ -283,5 +285,73 @@ if (is_page('re-engineering-aanmaak')): ?>
             </div>
         </div>
     </section>
+</article>
+<?php endif;
+
+
+if (is_page('jobs')): ?>
+<article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
+    <div class="jobs_h1 container">
+        <div class="row">
+            <div class="col-lg-6 col-md-12">
+                <h1 class="tk-orpheuspro"><?php the_field('jobs_title'); ?></h1>
+                <div class="red_text_block">
+                    <div class="work-description-title">
+                        <h4>LOCATIE</h4>
+                        <h4>NIVEAU</h4>
+                        <h4>REGIME</h4>
+                    </div>
+                    <div class="work-description-item">
+                        <p>Sint-Job in ’t Goor</p>
+                        <p>Starter</p>
+                        <p>Voltijds</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="job_info container-fluid">
+        <div class="row">
+            <div class="container">
+                <div class="row">
+                    <div class="your_description col-lg-8">
+                        <h2>Functiebeschrijving</h2>
+                        <p>→ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                            et dolore magna aliqua. Ut enim ad minim veniam</p>
+                        <p>→ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                            et dolore magna aliqua. Ut enim ad minim veniam</p>
+                        <p>→ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                            et dolore magna aliqua. Ut enim ad minim veniam</p>
+                    </div>
+                    <div class="your_profile col-lg-8">
+                        <h2>Jouw profiel</h2>
+                        <p>→ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                            et dolore magna aliqua. Ut enim ad minim veniam</p>
+                        <p>→ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                            et dolore magna aliqua. Ut enim ad minim veniam</p>
+                        <p>→ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                            et dolore magna aliqua. Ut enim ad minim veniam</p>
+                    </div>
+                    <div class="your_benefits col-lg-8">
+                        <h2>Jouw voordelen</h2>
+                        <p>→ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                            et dolore magna aliqua. Ut enim ad minim veniam</p>
+                        <p>→ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                            et dolore magna aliqua. Ut enim ad minim veniam</p>
+                        <p>→ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                            et dolore magna aliqua. Ut enim ad minim veniam</p>
+                    </div>
+                    <div class="contact_person col-lg-12">
+                        <img src="<?php the_field('contact_person'); ?>" alt="Contact Person Photo">
+                        <div class="cp_credentials">
+                            <div class="cp_name"><?php the_field('cp_name'); ?></div>
+                            <div class="cp_position"><?php the_field('cp_position'); ?></div>
+                            <p>Contactpersoon</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 </article>
 <?php endif;
