@@ -710,6 +710,9 @@ body {
         margin-top: 70px;
         margin-bottom: 70px;
     }
+    .home_2nd_title h2 {
+        font-size: 50px;
+    }
     .problem_solution {
         background: url(images/machine1.png) no-repeat 22% 2%,
         url(images/machine2.png) no-repeat 75% 0,
@@ -1543,6 +1546,34 @@ body.page-id-133.custom-background {
 
 /* ------ RE-ENGINEERING PAGE -------------------- */
 /* re-engineer_h1 */
+body.page-id-42.custom-background {
+    background-image: url(images/bg_reengineertop.png);
+    background-position: right top;
+    background-size: 56.3%;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+}
+
+.page-id-42 .current-menu-parent {
+    position: relative;
+}
+
+.page-id-42 .current-menu-parent > a:after {
+    content: "";
+    position: absolute;
+    margin: 20px auto;
+    background: #fff;
+    height: 5px;
+    width: 80%;
+    left: 12%;
+    top: 47%;
+}
+
+/*#menu-item-47.current-menu-ancestor > ul.sub-menu {*/
+#menu-item-47 > ul.sub-menu {
+    display: none;
+}
+
 .re-engineer_h1 h1 {
     font-size: 83px;
     letter-spacing: 5px;
@@ -1553,7 +1584,7 @@ body.page-id-133.custom-background {
 
 /* design_product */
 .design_product {
-    margin-bottom: -15px;
+    margin-bottom: -14px;
 }
 
 .design_product .row {
@@ -1607,31 +1638,32 @@ body.page-id-133.custom-background {
 
 /*our_advantages */
 .our_advantages {
-    background: #fff url(images/img_card01.png) no-repeat 22% 45%;
-                /*url(images/machine2.png) no-repeat 96% 0,
-                url(images/machine3.png) no-repeat -85% 100%,
-                url(images/machine4.png) no-repeat 95% 93%;*/
-}
-
-.our_advantages_wrap {
-    /*background: #fff url(images/img_card01.png) no-repeat 0% -1%;*/
+    background-color: #fff;
+    padding-bottom: 75px;
 }
 
 .our_advantages_wrap .left_column {
-    /*background: #fff url(images/img_card01.png) no-repeat 0% -1%;*/
+    background: url(images/img_card01.png) no-repeat 8% 9%,
+                url(images/img_card03.png) no-repeat 8% 46%,
+                url(images/img_card05.png) no-repeat 8% 83%;
     padding-top: 130px;
     padding-left: 138px;
+}
+
+.our_advantages_wrap .right_column {
+    background: url(images/img_card02.png) no-repeat -10% 22%,
+                url(images/img_card04.png) no-repeat -10% 68%;
 }
 
 .our_advantages .card {
     border: none;
     border-radius: 0;
     margin-left: 19px;
-    margin-bottom: 97px;
+    margin-bottom: 102px;
 }
 
 .our_advantages .card05 {
-    margin-bottom: 72px;
+    margin-bottom: 50px;
 }
 
 .our_advantages .card-body {
@@ -1680,14 +1712,15 @@ body.page-id-133.custom-background {
     justify-content: center;
     align-items: center;
     text-align: center;
-    margin-bottom: 73px;
+    margin-bottom: 58px;
+    padding: 1rem 0.5rem 1rem 0;
 }
 
 .our_advantages .contact_btn:before,
 .our_advantages .contact_btn:after {
     content: '';
     /*border-top: 2px solid #000;*/
-    border: 2px solid #d4d4d4;
+    border: 1px solid #d4d4d4;
     margin: 0 30px 0 0;
     flex: 1 0 20px;
 }
@@ -1699,7 +1732,7 @@ body.page-id-133.custom-background {
 .our_advantages h2 {
     color: #000;
     font-size: 83px;
-    line-height: 78px;
+    line-height: 76px;
     margin-bottom: -15px;
     text-align: center;
 }
@@ -1709,7 +1742,7 @@ body.page-id-133.custom-background {
     font-family: "orpheuspro",serif;
     font-size: 47px;
     font-weight: 400;
-    letter-spacing: -0.6px;
+    letter-spacing: 2.4px;
     line-height: 46px;
     margin-bottom: 30px;
     text-align: center;
@@ -1721,8 +1754,202 @@ body.page-id-133.custom-background {
 
 .our_advantages .our_clients_logo {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
     flex-wrap: wrap;
     width: 100%;
+}
+
+.our_advantages .our_clients_logo img {
+    margin-left: 15px;
+    margin-right: 50px;
+}
+
+/* Section Review*/
+.review {
+    background: url(/wp-content/themes/basictheme/images/bg_crosses.png) no-repeat 77% 21%;
+    padding-bottom: 83px;
+}
+.review .sub_title_right h6 {
+    margin-top: 85px;
+    margin-bottom: 36px;
+}
+
+.review .review_block {
+    margin-top: -44px;
+}
+
+.review .review_block_wrap {
+    clip-path: polygon(0 0, 100% 0, 100% 81%, 92% 81%, 92% 100%, 0 100%);
+    background: #ff3a20;
+    margin-left: -27px;
+    max-width: 866px;
+    padding: 38px 61px 13px 41px;
+}
+
+.review .review_block:before {
+    content: url("images/quote_left.png");
+    position: relative;
+    top: 12px;
+    left: -11px;
+    z-index: 1;
+}
+
+.review .review_block:after {
+    content: url("images/quote_right.png");
+    position: absolute;
+    top: 109%;
+    left: 83%;
+}
+
+.review .review_block_wrap p {
+    /*font-family: "orpheuspro",serif;*/
+    font-size: 28px;
+    font-weight: 500;
+    letter-spacing: -0.6px;
+    line-height: 33px;
+    margin-bottom: 0;
+}
+
+.review .quote_author {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.review .quote_author span {
+    color: #ff3a20;
+    font-size: 32px;
+    line-height: 35px;
+    margin-left: -33px;
+    margin-top: 60px;
+    letter-spacing: -1.1px;
+    display: flex;
+    width: 64%;
+    justify-content: center;
+    align-items: center;
+}
+
+.review .quote_author span:before {
+    content: '';
+    border: 1px solid #fff;
+    margin: -33px 23px 0 0;
+    flex: 1 0 40px;
+}
+
+.review .quote_author p {
+    margin-left: -24px;
+    margin-top: 10px;
+}
+
+.review .contact_dark_btn {
+    margin-top: 65px;
+    margin-left: 0;
+    text-align: center;
+    width: 100%;
+}
+
+@media screen and (max-width: 1440px) {
+    body.page-id-42.custom-background {
+        background-size: auto;
+    }
+    .design_product {
+        margin-bottom: 30px;
+    }
+}
+
+@media screen and (max-width: 1199px) {
+    .re-engineer_h1 h1 {
+        font-size: 52px;
+        margin-top: 70px;
+    }
+    .our_advantages h2 {
+        font-size: 50px;
+    }
+    .our_advantages h5 {
+        font-size: 36px;
+    }
+    .design_product .text_block h6 {
+        font-size: 14px;
+    }
+    .review .quote_author span {
+        margin-left: -23px;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .design_product .text_block_wrap {
+        max-width: unset;
+    }
+    .design_product .img_block img {
+        margin-left: unset;
+    }
+    .our_advantages_wrap .right_column {
+        padding-top: 55px;
+    }
+    .our_advantages_wrap .left_column {
+        background: url(images/img_card01.png) no-repeat 6% 9%,
+                    url(images/img_card03.png) no-repeat 6% 46%,
+                    url(images/img_card05.png) no-repeat 6% 86%;
+    }
+    .our_advantages_wrap .right_column {
+        background: url(images/img_card02.png) no-repeat -6% -22%,
+        url(images/img_card04.png) no-repeat -6% 68%;
+    }
+    .review .review_block_wrap {
+        margin-left: unset;
+    }
+    .review .quote_author span {
+        display: unset;
+        text-align: center;
+        width: 100%;
+        margin-top: 20px;
+    }
+    .review .quote_author span:before {
+        position: absolute;
+        height: 50px;
+        left: 50%;
+        margin: -53px 23px 0 0;
+    }
+    .review .quote_author p {
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    body.page-id-42.custom-background {
+        background-position: left top;
+    }
+    .our_advantages_wrap .left_column {
+        background: url(images/img_card01.png) no-repeat 6% 9%,
+        url(images/img_card03.png) no-repeat 6% 43%,
+        url(images/img_card05.png) no-repeat 6% 78%;
+    }
+    .our_advantages_wrap .right_column {
+        background: url(images/img_card02.png) no-repeat -13% -16%,
+        url(images/img_card04.png) no-repeat -13% 67%;
+    }
+    .re-engineer_h1 h1 {
+        font-size: 46px;
+    }
+    .our_advantages h2 {
+        font-size: 38px;
+    }
+    .our_advantages h5 {
+        font-size: 26px;
+    }
+}
+
+@media screen and (max-width: 575px) {
+    .re-engineer_h1 h1 {
+        font-size: 52px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .our_advantages_wrap .left_column,
+    .our_advantages_wrap .right_column {
+        background-color: transparent;
+        padding-left: unset;
+    }
 }

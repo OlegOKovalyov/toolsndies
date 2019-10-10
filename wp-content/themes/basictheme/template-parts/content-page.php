@@ -178,85 +178,110 @@ if (is_page('re-engineering-aanmaak')): ?>
         </div>
     </div>
     <div class="our_advantages container-fluid">
-        <div class="our_advantages_wrap container">
-            <div class="row">
-                <div class="left_column col-lg-6">
-                    <div class="card card01">
-                        <div class="card-body">
-                            <div class="card_header">
-                                <span class="card_number">01</span>
-                                <span class="card-title">Wij luisteren</span>
+        <div class="row">
+            <div class="our_advantages_wrap container">
+                <div class="row">
+                    <div class="left_column col-lg-6">
+                        <div class="card card01">
+                            <div class="card-body">
+                                <div class="card_header">
+                                    <span class="card_number">01</span>
+                                    <span class="card-title">Wij luisteren</span>
+                                </div>
+                                <p class="card-text">Wij luisteren naar al uw noden en analyseren ze in de vorm van een Correcte Project Omschrijving (CPO). Indien de CPO nog niet bestaat, kunnen wij u daarin adviseren.</p>
                             </div>
-                            <p class="card-text">Wij luisteren naar al uw noden en analyseren ze in de vorm van een Correcte Project Omschrijving (CPO). Indien de CPO nog niet bestaat, kunnen wij u daarin adviseren.</p>
+                        </div>
+                        <div class="card card03">
+                            <div class="card-body">
+                                <div class="card_header">
+                                    <span class="card_number">03</span>
+                                    <span class="card-title">Wij bouwen</span>
+                                </div>
+                                <p class="card-text">Met een definitieve garantie op de kostprijs van uw matrijs, zetten we alles op alles om uw matrijs effectief te creëeren. Dankzij duidelijke afspraken is onze communicatie vlot en efficiënt.</p>
+                            </div>
+                        </div>
+                        <div class="card card05">
+                            <div class="card-body">
+                                <div class="card_header">
+                                    <span class="card_number">05</span>
+                                    <span class="card-title">Wij onderhouden</span>
+                                </div>
+                                <p class="card-text">Eens u van start bent, kunnen we samen de beste frequentie van uw onderhoud bepalen om pro-actief een maximaal rendement te bekomen. Zo bent u zeker over de toekomst</p>
+                            </div>
                         </div>
                     </div>
-                    <div class="card card03">
-                        <div class="card-body">
-                            <div class="card_header">
-                                <span class="card_number">03</span>
-                                <span class="card-title">Wij bouwen</span>
+                    <div class="right_column col-lg-6">
+                        <div class="card card02">
+                            <div class="card-body">
+                                <div class="card_header">
+                                    <span class="card_number">02</span>
+                                    <span class="card-title">Wij ontwerpen</span>
+                                </div>
+                                <p class="card-text">In de ontwerpfase baseren we ons op de CPO en zorgen we voor wekelijkse terugkoppelingen, opdat u mee bent in het proces. De fase eindigt na een finale goedkeuring van het ontwerp.</p>
                             </div>
-                            <p class="card-text">Met een definitieve garantie op de kostprijs van uw matrijs, zetten we alles op alles om uw matrijs effectief te creëeren. Dankzij duidelijke afspraken is onze communicatie vlot en efficiënt.</p>
                         </div>
-                    </div>
-                    <div class="card card05">
-                        <div class="card-body">
-                            <div class="card_header">
-                                <span class="card_number">05</span>
-                                <span class="card-title">Wij onderhouden</span>
+                        <div class="card card04">
+                            <div class="card-body">
+                                <div class="card_header">
+                                    <span class="card_number">04</span>
+                                    <span class="card-title">Wij testen</span>
+                                </div>
+                                <p class="card-text">Nu uw gereedschap klaar is, testen we de matrijs functioneel. Operationele testen zijn ook mogelijk, ofwel bij Tools&Dieis ofwel op uw eigen productielijn. Ook de installatie op uw lijn kunnen wij faciliteren.</p>
                             </div>
-                            <p class="card-text">Eens u van start bent, kunnen we samen de beste frequentie van uw onderhoud bepalen om pro-actief een maximaal rendement te bekomen. Zo bent u zeker over de toekomst</p>
                         </div>
                     </div>
                 </div>
-                <div class="right_column col-lg-6">
-                    <div class="card card02">
-                        <div class="card-body">
-                            <div class="card_header">
-                                <span class="card_number">02</span>
-                                <span class="card-title">Wij ontwerpen</span>
-                            </div>
-                            <p class="card-text">In de ontwerpfase baseren we ons op de CPO en zorgen we voor wekelijkse terugkoppelingen, opdat u mee bent in het proces. De fase eindigt na een finale goedkeuring van het ontwerp.</p>
-                        </div>
+            </div>
+            <div class="contact_btn text-center">
+                <a href="<?php the_field('link_ok_contact'); ?>" type="" class="btn btn-lg btn-primary">OK, IK NEEM CONTACT OP →</a>
+            </div>
+            <div class="we_are_experts container">
+                <div class="row">
+                    <div class="we_are_experts_h2 offset-lg-2 col-lg-8">
+                        <h2 class="tk-orpheuspro"><?php the_field('reengineering_2nd_title'); ?></h2>
+                        <h5>Volgsnijmatrijzen</h5>
+                        <h5>Kap- en buigmatrijzen</h5>
+                        <h5>Perforatiematrijzen</h5>
+                        <h5>Stitchermatrijzen</h5>
+                        <h5>Spuitgietmatrijzen</h5>
                     </div>
-                    <div class="card card04">
-                        <div class="card-body">
-                            <div class="card_header">
-                                <span class="card_number">04</span>
-                                <span class="card-title">Wij testen</span>
-                            </div>
-                            <p class="card-text">Nu uw gereedschap klaar is, testen we de matrijs functioneel. Operationele testen zijn ook mogelijk, ofwel bij Tools&Dieis ofwel op uw eigen productielijn. Ook de installatie op uw lijn kunnen wij faciliteren.</p>
-                        </div>
+                </div>
+            </div>
+            <div class="our_clients container">
+                <div class="row">
+                    <div class="our_clients_logo">
+                        <img src="<?php the_field('our_clients_1'); ?>" alt="Happy client 1">
+                        <img src="<?php the_field('our_clients_2'); ?>" alt="Happy client 2">
+                        <img src="<?php the_field('our_clients_3'); ?>" alt="Happy client 3">
+                        <img src="<?php the_field('our_clients_4'); ?>" alt="Happy client 4">
+                        <img src="<?php the_field('our_clients_5'); ?>" alt="Happy client 5">
                     </div>
                 </div>
             </div>
         </div>
-        <div class="contact_btn text-center">
-            <a href="<?php the_field('link_ok_contact'); ?>" type="" class="btn btn-lg btn-primary">OK, IK NEEM CONTACT OP →</a>
-        </div>
-        <div class="we_are_experts container">
-            <div class="row">
-                <div class="we_are_experts_h2 offset-lg-2 col-lg-8">
-                    <h2 class="tk-orpheuspro"><?php the_field('reengineering_2nd_title'); ?></h2>
-                    <h5>Volgsnijmatrijzen</h5>
-                    <h5>Kap- en buigmatrijzen</h5>
-                    <h5>Perforatiematrijzen</h5>
-                    <h5>Stitchermatrijzen</h5>
-                    <h5>Spuitgietmatrijzen</h5>
+    </div><!-- .our_advantages.container-fluid-->
+    <section class="review container-fluid">
+        <div class="row">
+            <div class="container">
+                <div class="row">
+                    <div class="sub_title_right col">
+                        <h6>WAT ONZE KLANTEN ZEGGEN</h6>
+                    </div>
+                    <div class="review_block offset-lg-1 col-lg-9">
+                        <div class="review_block_wrap">
+                            <p>Met Tools&Dies als partner voor het maken van nieuwe onderdelen, alsook het onderhoud van bestaande gereedschappen, kunnen wij rekenen op een ongekende expertise! Die expertise levert echt een toegevoegde waarde binnen onze productie, alsook de bijhorende kwalitatieve producten die we leveren en installeren</p>
+                        </div>
+                    </div>
+                    <div class="quote_author col-lg-2">
+                        <span>Anthony Schrauwen</span>
+                        <p>Interalu</p>
+                    </div>
+                    <div class="contact_dark_btn row justify-content-center">
+                        <a href="<?php the_field('link_ok_contact'); ?>" type="" class="btn btn-lg btn-outline-primary">OK, IK NEEM CONTACT OP</a>
+                    </div>
                 </div>
             </div>
         </div>
-        <div class="our_clients container">
-            <div class="row">
-                <div class="our_clients_logo">
-                    <img src="<?php the_field('our_clients_1'); ?>" alt="Happy client 1">
-                    <img src="<?php the_field('our_clients_2'); ?>" alt="Happy client 2">
-                    <img src="<?php the_field('our_clients_3'); ?>" alt="Happy client 3">
-                    <img src="<?php the_field('our_clients_4'); ?>" alt="Happy client 4">
-                    <img src="<?php the_field('our_clients_5'); ?>" alt="Happy client 5">
-                </div>
-            </div>
-        </div>
-    </div>
+    </section>
 </article>
 <?php endif;
