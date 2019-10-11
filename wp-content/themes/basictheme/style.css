@@ -138,6 +138,11 @@ body {
     padding: 3px 6px 4px 6px;
 }
 
+.menu-menu-1-container ul li a:hover {
+    /*color: #b3b3b3;*/
+    text-decoration: none;
+}
+
 .menu-menu-1-container ul li:nth-child(5) a {
     background-color: #ff3a20;
 }
@@ -462,6 +467,10 @@ body {
 /* custom-footer */
 .custom-footer {
     padding-top: 45px;
+}
+
+.custom-footer h2 {
+    font-family: "stratos",sans-serif;
 }
 
 .custom-footer,
@@ -1396,7 +1405,8 @@ body.page-id-133.custom-background {
     border-radius: 0;
 }
 
-.contact_h1_form .form-group input::placeholder {
+.contact_h1_form .form-group input::placeholder,
+.contact_h1_form .form-group textarea::placeholder{
     font-family: "stratos",sans-serif;
     font-size: 18px;
     letter-spacing: -0.35px;
@@ -1987,6 +1997,52 @@ h4 {
     text-transform: uppercase;
 }
 
+@media screen and (max-width: 1199px) {
+    h1 {
+        font-size: 52px;
+    }
+    h2 {
+        font-size: 50px;
+    }
+    h5 {
+        font-size: 36px;
+    }
+    h6 {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    h1 {
+        font-size: 46px;
+    }
+    h2 {
+        font-size: 38px;
+    }
+    h5 {
+        font-size: 26px;
+    }
+}
+
+.page-id-86 .current-menu-item {
+    position: relative;
+}
+
+.page-id-86 .current-menu-item > a:after {
+    content: "";
+    position: absolute;
+    margin: 20px auto;
+    background: #fff;
+    height: 5px;
+    width: 80%;
+    left: 12%;
+    top: 47%;
+}
+
+#menu-item-186 > ul.sub-menu {
+    display: none;
+}
+
 .red_text_block {
     clip-path: polygon(0 0, 100% 0, 100% 76%, 92% 76%, 92% 100%, 0 100%);
     background: #ff3a20;
@@ -2053,7 +2109,9 @@ body.page-id-86.custom-background {
 .job_info {
     color: #000;
     background-color: #fff;
-    margin-left: 10px;
+    /*margin-left: -10px;*/
+    /*margin-right: 10px;*/
+    padding-bottom: 57px;
 }
 
 .job_info .your_description {
@@ -2084,11 +2142,20 @@ body.page-id-86.custom-background {
 
 .job_info .contact_person {
     display: flex;
+    justify-content: space-between;
+}
+
+.cp_links {
+    align-self: flex-end;
+}
+
+.cp_img_credentials {
+    display: flex;
 }
 
 .job_info .contact_person img {
     margin-right: 23px;
-    margin-left: 8px;
+    margin-left: -2px;
 }
 
 .job_info .contact_person .cp_name {
@@ -2106,4 +2173,173 @@ body.page-id-86.custom-background {
     font-weight: 500;
     letter-spacing: -0.35px;
     line-height: 25px;
+}
+
+.contact_person .btn-link {
+    border-radius: 0;
+    color: #ff3a20;
+    letter-spacing: 2.4px;
+    margin: 0 -16px -4px -6px;
+    padding: 0;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.contact_person .btn-link:first-child {
+    margin-right: 16px;
+}
+
+/* apply_now_form */
+.apply_now_form {
+    background-image: url(images/bg_applyform.png);
+    background-position: right top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    padding-bottom: 69px;
+}
+
+.apply_now_form form {
+    background-image: linear-gradient(to top, #ffffff 0%, rgba(255, 255, 255, 0.75) 100%);
+    padding-top: 1px;
+    padding-bottom: 8px;
+}
+
+.apply_now_form .form-group {
+    font-family: "stratos",sans-serif;
+    margin-left: 50px;
+    margin-bottom: 12px;
+    max-width: 53%;
+}
+
+.apply_now_form h2 {
+    color: #000;
+    font-size: 47px;
+    letter-spacing: 1.3px;
+    line-height: 76px;
+    margin-top: 28px;
+    /*margin-left: 14px;*/
+    margin-bottom: 19px;
+}
+
+.apply_now_form .form-group p {
+    opacity: 0.5;
+    color: #000;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: -0.5px;
+    line-height: 25px;
+    margin-left: 24px;
+}
+
+.apply_now_form .form-group input {
+    background: transparent;
+    border: 1px solid #fff;
+    border-radius: 0;
+}
+
+.apply_now_form .form-group textarea {
+    background: transparent;
+    border: 1px solid #fff;
+    border-radius: 0;
+    width: 155%;
+    height: 132px;
+    padding-top: 15px;
+    padding-left: 20px;
+}
+
+.apply_now_form .btn_form {
+    margin-top: 10px;
+    height: 64px;
+    margin-left: 51px;
+    padding-left: 1.4rem;
+    padding-right: 1.4rem;
+}
+
+/* input File Form*/
+.apply_now_form .form-group input::placeholder,
+.apply_now_form .form-group textarea::placeholder {
+    font-family: "stratos",sans-serif;
+    font-size: 18px;
+    letter-spacing: -0.35px;
+}
+
+.apply_now_form .inputfile {
+    width: 0.1px;
+    height: 0.1px;
+    opacity: 0;
+    overflow: hidden;
+    position: absolute;
+    z-index: -1;
+}
+
+.apply_now_form .file-cv input {
+    width: 0.1px;
+    height: 0.1px;
+    opacity: 0;
+    overflow: hidden;
+    position: absolute;
+    z-index: -1;
+}
+
+.apply_now_form .upload_label {
+    /*color: #6c757d;*/
+    /*font-family: "stratos",sans-serif;*/
+    /*font-size: 18px;*/
+    /*letter-spacing: -0.35px;*/
+    /*background: transparent;*/
+    /*border: 1px solid #fff;*/
+    /*border-radius: 0;*/
+    /*height: calc(1.5em + 1rem + 2px);*/
+    /*padding: .5rem 1rem;*/
+    /*!*font-size: 1.25rem;*!*/
+    /*line-height: 1.5;*/
+}
+
+.apply_now_form .upload_label {
+    background: transparent;
+    border: 1px solid #fff;
+    border-radius: 0;
+    display: block;
+    width: 100%;
+    height: calc(1.5em + 1rem + 2px);
+    padding: .5rem 1rem;
+    font-size: 1.25rem;
+    line-height: 1.5;
+}
+
+.apply_now_form .upload_label .i-plus {
+    font-size: 38px;
+    line-height: 0.6;
+}
+
+.apply_now_form .upload_label label {
+    display: flex;
+    justify-content: space-between;
+    color: #6c757d;
+    cursor: pointer;
+    font-family: "stratos",sans-serif;
+    font-size: 18px;
+    letter-spacing: -0.35px;
+    width: 100%;
+}
+
+.apply_now_form .upload_label label .file-cv {
+    display: none;
+}
+
+@media screen and (max-width: 1199px) {
+    .jobs_h1 h1 {
+        margin-top: 70px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .apply_now_form .form-group {
+        max-width: 80%;
+    }
+
+    .apply_now_form .form-group textarea {
+        max-width: 100%;
+    }
 }

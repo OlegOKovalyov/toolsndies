@@ -342,13 +342,28 @@ if (is_page('jobs')): ?>
                             et dolore magna aliqua. Ut enim ad minim veniam</p>
                     </div>
                     <div class="contact_person col-lg-12">
-                        <img src="<?php the_field('contact_person'); ?>" alt="Contact Person Photo">
-                        <div class="cp_credentials">
-                            <div class="cp_name"><?php the_field('cp_name'); ?></div>
-                            <div class="cp_position"><?php the_field('cp_position'); ?></div>
-                            <p>Contactpersoon</p>
+                        <div class="cp_img_credentials">
+                            <img src="<?php the_field('contact_person'); ?>" alt="Contact Person Photo">
+                            <div class="cp_credentials">
+                                <div class="cp_name"><?php the_field('cp_name'); ?></div>
+                                <div class="cp_position"><?php the_field('cp_position'); ?></div>
+                                <p>Contactpersoon</p>
+                            </div>
+                        </div>
+                        <div class="cp_links">
+                            <a href="<?php the_field('link_vacancy_share'); ?>" type="" class="btn btn-link">VACATURE DELEN →</a>
+                            <a href="<?php the_field('link_vacancy_print'); ?>" type="" class="btn btn-link">VACATURE PRINTEN →</a>
                         </div>
                     </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="apply_now_form container-fluid">
+        <div class="row">
+            <div class="container">
+                <div class="offset-lg-3 col-lg-6">
+                    <?php echo do_shortcode('[contact-form-7 id="196" title="Apply Now"]'); ?>
                 </div>
             </div>
         </div>
