@@ -2027,6 +2027,14 @@ h4 {
 .red_text_block {
     clip-path: polygon(0 0, 100% 0, 100% 76%, 92% 76%, 92% 100%, 0 100%);
     background: #ff3a20;
+    padding: 29px 50px 45px 30px;
+}
+
+.red_text_block p {
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: -0.7px;
+    line-height: 25px;
 }
 
 /* jobs_h1 */
@@ -2312,6 +2320,43 @@ body.page-id-86.custom-background {
 
 /* ------ APPLY SPONTANEOUSLY PAGE -------------------- */
 /* GENERAL SPECIFICATION */
+.card {
+    border: 0;
+    border-radius: unset;
+    color: #646464;
+    margin-bottom: 1.25rem;
+    padding: 15px;
+}
+
+.card .card_header {
+    display: flex;
+    align-items: flex-end;
+}
+
+.card .card_number {
+    color: #000;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 2px;
+    margin-left: 4px;
+    margin-right: 28px;
+}
+
+.card .card-title {
+    color: #ff3a20;
+    font-size: 43px;
+    display: inline;
+    margin-bottom: -5px;
+}
+
+.card .card-body .card-link {
+    color: #ff3a20;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 2.5px;
+}
+
+/* apply_spontaneously */
 form {
     background-image: linear-gradient(to top, #ffffff 0%, rgba(255, 255, 255, 0.75) 100%);
     padding-top: 1px;
@@ -2374,7 +2419,6 @@ input::placeholder,
     letter-spacing: -0.35px;
 }
 
-/* apply_spontaneously */
 body.page-id-90.custom-background {
     background-image: url(images/bg_contacttop.png);
     background-position: right top;
@@ -2500,4 +2544,154 @@ body.page-id-90.custom-background {
     .apply_spontaneously .form-group textarea {
         max-width: 100%;
     }
+}
+
+/* ------ VACANCIES PAGE -------------------- */
+/* GENERAL SPECIFICATION */
+
+/* vacancies */
+body.page-id-88.custom-background {
+    background-image: url(images/bg_contacttop.png);
+    background-position: right top;
+    background-size: 56.3%;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+}
+
+.page-id-88 .current-menu-parent {
+    position: relative;
+}
+
+.page-id-88 .current-menu-parent > a:after {
+    content: "";
+    position: absolute;
+    margin: 20px auto;
+    background: #fff;
+    height: 5px;
+    width: 80%;
+    left: 12%;
+    top: 47%;
+}
+
+#menu-item-186 > ul.sub-menu {
+    display: none;
+}
+
+.vacancies {
+    padding-bottom: 89px;
+}
+.vacancies h1 {
+    margin-top: 150px;
+    margin-bottom: -34px;
+}
+
+.vacancies .red_text_block {
+    clip-path: polygon(0 0, 100% 0, 100% 86%, 92% 86%, 92% 100%, 0 100%);
+    max-width: 550px;
+}
+
+/* open_positions */
+.open_positions {
+    background-color: #fff;
+    padding-bottom: 41px;
+}
+
+.open_positions h2 {
+    color: #000;
+    margin-top: 73px;
+    text-align: center;
+}
+
+.open_positions .card .card_number {
+    margin-left: 9px;
+    margin-right: 13px;
+}
+
+.open_positions .level_regime {
+    color: #fff;
+    display: inline-block;
+    font-size: 15px;
+    font-weight: 700;
+    letter-spacing: 1.88px;
+    margin-bottom: 9px;
+    margin-left: 9px;
+    margin-top: 16px;
+    text-transform: uppercase;
+}
+
+.open_positions .level_regime span:first-child {
+    background-color: #000;
+    margin-right: 5px;
+    padding: 5px 7px 2px 7px;
+}
+
+.open_positions .level_regime span:last-child {
+    background-color: #808080;
+    padding: 5px 7px 2px 7px;
+}
+
+.bg_twoimg {
+    background: #fff url(images/bg_twoimg.png) no-repeat center top;
+    background-size: contain;
+    height: 806px;
+    margin-top: 41px;
+    margin-bottom: 73px;
+}
+
+/* didnt_find container */
+.didnt_find h3 {
+    color: #ff3a20;
+    font-family: "orpheuspro", serif;
+    font-size: 47px;
+    line-height: 76px;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+.didnt_find p {
+    color: #000;
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: -0.35px;
+    line-height: 25px;
+    margin-bottom: 26px;
+    text-align: center;
+}
+
+.didnt_find .contact_btn .btn-lg {
+    padding: 1rem 1rem 1.3rem 1rem;
+}
+
+@media screen and (max-width: 1199px) {
+    .vacancies h1 {
+        margin-top: 70px;
+        margin-bottom: 25px;
+    }
+    .bg_twoimg {
+        height: 612px;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .page-id-88 .current-menu-parent > a:after {
+        width: 60%;
+        left: 42%;
+        top: 18%;
+    }
+    .bg_twoimg {
+        height: 542px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .bg_twoimg {
+        background-size: cover;
+        height: 405px;
+    }
+}
+
+@media screen and (max-width: 575px) {
+    /*.bg_twoimg {*/
+    /*    height: 307px;*/
+    /*}*/
 }

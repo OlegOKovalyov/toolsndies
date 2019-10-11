@@ -40,16 +40,16 @@
                     while ( $query->have_posts() ) {
                         $query->the_post(); $count++; $card_num = "card0" . $count; ?>
                         <div class="col-lg-6 col-md-12">
-                                <div class="card <?php echo $card_num; ?>">
-                                    <div class="card-body">
-                                        <div class="card_header">
-                                            <span class="card_number"><?php printf("% 02s", $count); ?></span>
-                                            <h5 class="card-title"><?php the_title(); ?></h5>
-                                        </div>
-                                        <p class="card-text"><?php the_content(); ?></p>
-                                        <a href="<?php the_permalink(); ?>" class="card-link">MEER WETEN →</a>
+                            <div class="card <?php echo $card_num; ?>">
+                                <div class="card-body">
+                                    <div class="card_header">
+                                        <span class="card_number"><?php printf("% 02s", $count); ?></span>
+                                        <h5 class="card-title"><?php the_title(); ?></h5>
                                     </div>
+                                    <p class="card-text"><?php the_content(); ?></p>
+                                    <a href="<?php the_permalink(); ?>" class="card-link">MEER WETEN →</a>
                                 </div>
+                            </div>
                         </div>
                         <?php
                     }
@@ -389,5 +389,101 @@ if (is_page('jobs/spontane-sollicatie')): ?>
             </div>
         </div>
     </div>
+</article>
+<?php endif;
+
+
+if (is_page('jobs/vacatures')): ?>
+<article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
+    <div class="vacancies container">
+        <div class="row">
+            <div class="col-lg-6 col-md-12">
+                <h1 class="tk-orpheuspro"><?php the_field('vacancies_title'); ?></h1>
+                <div class="red_text_block">
+                    <p>Samen hebben onze teamleden 350 jaar ervaring in verschillende domeinen. Wij vormen dan ook de ideale leerschool voor iedereen die graag meer wil weten en leren over het maken van gereedschappen.
+                        <br><br>
+                        Of je nu aan het begin van je carrière staat of je wil extra ervaring toevoegen aan ons team, we heten je graag welkom!</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="open_positions container-fluid">
+        <div class="row">
+            <div class="container">
+                <div class="row">
+                    <div class="offset-lg-2 col-lg-8">
+                        <h2><?php the_field('vacancies_title_h2') ?></h2>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-6">
+                        <div class="card card01">
+                            <div class="card-body">
+                                <div class="card_header">
+                                    <span class="card_number">01</span>
+                                    <h5 class="card-title"><?php the_field('job_title__vacancie_1'); ?></h5>
+                                </div>
+                                <div class="level_regime">
+                                    <span><?php the_field('level_vacancie_1'); ?></span>
+                                    <span><?php the_field('regime_vacancie_1'); ?></span>
+                                </div>
+                                <p class="card-text"><?php the_field('job_description_1'); ?></p>
+                                <a href="<?php the_permalink(); ?>" class="card-link">MEER WETEN →</a>
+                                <a href="<?php the_permalink(); ?>" class="card-link">IK SOLLICITEER →</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="card card02">
+                            <div class="card-body">
+                                <div class="card_header">
+                                    <span class="card_number">02</span>
+                                    <h5 class="card-title"><?php the_field('job_title__vacancie_2'); ?></h5>
+                                </div>
+                                <div class="level_regime">
+                                    <span><?php the_field('level_vacancie_2'); ?></span>
+                                    <span><?php the_field('regime_vacancie_2'); ?></span>
+                                </div>
+                                <p class="card-text"><?php the_field('job_description_2'); ?></p>
+                                <a href="<?php the_permalink(); ?>" class="card-link">MEER WETEN →</a>
+                                <a href="<?php the_permalink(); ?>" class="card-link">IK SOLLICITEER →</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="bg_twoimg container-fluid"></div>
+        <div class="didnt_find container">
+            <h3>Niet gevonden wat je zocht?</h3>
+            <p>We zijn steeds op zoek naar nieuw talent, dus kies voor een spontane sollicitatie!</p>
+            <div class="contact_btn container text-center">
+                <a href="<?php the_field('link_ok_contact'); ?>" type="" class="btn btn-lg btn-primary">SOLLICITEER NU →</a>
+            </div>
+        </div>
+    </div>
+    <section class="review container-fluid">
+        <div class="row">
+            <div class="container">
+                <div class="row">
+                    <div class="sub_title_right col">
+                        <h6>WAT ONZE KLANTEN ZEGGEN</h6>
+                    </div>
+                    <div class="review_block offset-lg-1 col-lg-9">
+                        <div class="review_block_wrap">
+                            <p>Met Tools&Dies als partner voor het maken van nieuwe onderdelen, alsook het onderhoud van bestaande gereedschappen, kunnen wij rekenen op een ongekende expertise! Die expertise levert echt een toegevoegde waarde binnen onze productie, alsook de bijhorende kwalitatieve producten die we leveren en installeren</p>
+                        </div>
+                    </div>
+                    <div class="quote_author col-lg-2">
+                        <span>Anthony Schrauwen</span>
+                        <p>Interalu</p>
+                    </div>
+                    <div class="contact_dark_btn row justify-content-center">
+                        <a href="<?php the_field('link_ok_contact'); ?>" type="" class="btn btn-lg btn-outline-primary">OK, IK NEEM CONTACT OP</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 </article>
 <?php endif;
