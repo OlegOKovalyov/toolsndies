@@ -2024,6 +2024,20 @@ h4 {
     }
 }
 
+.red_text_block {
+    clip-path: polygon(0 0, 100% 0, 100% 76%, 92% 76%, 92% 100%, 0 100%);
+    background: #ff3a20;
+}
+
+/* jobs_h1 */
+body.page-id-86.custom-background {
+    background-image: url(images/bg_contacttop.png);
+    background-position: right top;
+    background-size: 56.3%;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+}
+
 .page-id-86 .current-menu-item {
     position: relative;
 }
@@ -2040,39 +2054,6 @@ h4 {
 }
 
 #menu-item-186 > ul.sub-menu {
-    display: none;
-}
-
-.red_text_block {
-    clip-path: polygon(0 0, 100% 0, 100% 76%, 92% 76%, 92% 100%, 0 100%);
-    background: #ff3a20;
-}
-
-/* jobs_h1 */
-body.page-id-86.custom-background {
-    background-image: url(images/bg_contacttop.png);
-    background-position: right top;
-    background-size: 56.3%;
-    background-repeat: no-repeat;
-    background-attachment: scroll;
-}
-
-.page-id-86 .current-menu-parent {
-    position: relative;
-}
-
-.page-id-86 .current-menu-parent > a:after {
-    content: "";
-    position: absolute;
-    margin: 20px auto;
-    background: #fff;
-    height: 5px;
-    width: 80%;
-    left: 12%;
-    top: 47%;
-}
-
-#menu-item-86 > ul.sub-menu {
     display: none;
 }
 
@@ -2212,13 +2193,12 @@ body.page-id-86.custom-background {
     max-width: 53%;
 }
 
-.apply_now_form h2 {
+.apply_now_form form h2 {
     color: #000;
     font-size: 47px;
     letter-spacing: 1.3px;
     line-height: 76px;
     margin-top: 28px;
-    /*margin-left: 14px;*/
     margin-bottom: 19px;
 }
 
@@ -2283,20 +2263,6 @@ body.page-id-86.custom-background {
 }
 
 .apply_now_form .upload_label {
-    /*color: #6c757d;*/
-    /*font-family: "stratos",sans-serif;*/
-    /*font-size: 18px;*/
-    /*letter-spacing: -0.35px;*/
-    /*background: transparent;*/
-    /*border: 1px solid #fff;*/
-    /*border-radius: 0;*/
-    /*height: calc(1.5em + 1rem + 2px);*/
-    /*padding: .5rem 1rem;*/
-    /*!*font-size: 1.25rem;*!*/
-    /*line-height: 1.5;*/
-}
-
-.apply_now_form .upload_label {
     background: transparent;
     border: 1px solid #fff;
     border-radius: 0;
@@ -2340,6 +2306,198 @@ body.page-id-86.custom-background {
     }
 
     .apply_now_form .form-group textarea {
+        max-width: 100%;
+    }
+}
+
+/* ------ APPLY SPONTANEOUSLY PAGE -------------------- */
+/* GENERAL SPECIFICATION */
+form {
+    background-image: linear-gradient(to top, #ffffff 0%, rgba(255, 255, 255, 0.75) 100%);
+    padding-top: 1px;
+}
+
+.form-group {
+    font-family: "stratos",sans-serif;
+    margin-left: 50px;
+    margin-bottom: 12px;
+    max-width: 53%;
+}
+
+form h2 {
+    color: #000;
+    font-size: 47px;
+    letter-spacing: 1.3px;
+    line-height: 76px;
+    margin-top: 28px;
+    margin-bottom: 19px;
+}
+
+.form-group p {
+    opacity: 0.5;
+    color: #000;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: -0.5px;
+    line-height: 25px;
+    margin-left: 24px;
+}
+
+.form-group input {
+    background: transparent;
+    border: 1px solid #fff;
+    border-radius: 0;
+}
+
+.form-group textarea {
+    background: transparent;
+    border: 1px solid #fff;
+    border-radius: 0;
+    width: 155%;
+    height: 132px;
+    padding-top: 15px;
+    padding-left: 20px;
+}
+
+form .btn_form {
+    margin-top: 10px;
+    height: 64px;
+    margin-left: 51px;
+    padding-left: 1.4rem;
+    padding-right: 1.4rem;
+}
+
+input::placeholder,
+.apply_now_form .form-group textarea::placeholder {
+    font-family: "stratos",sans-serif;
+    font-size: 18px;
+    letter-spacing: -0.35px;
+}
+
+/* apply_spontaneously */
+body.page-id-90.custom-background {
+    background-image: url(images/bg_contacttop.png);
+    background-position: right top;
+    background-size: 56.3%;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+}
+
+.page-id-90 .current-menu-parent {
+    position: relative;
+}
+
+.page-id-90 .current-menu-parent > a:after {
+    content: "";
+    position: absolute;
+    margin: 20px auto;
+    background: #fff;
+    height: 5px;
+    width: 80%;
+    left: 12%;
+    top: 47%;
+}
+
+#menu-item-186 > ul.sub-menu {
+    display: none;
+}
+
+.apply_spontaneously {
+    margin-top: 150px;
+    /*margin-bottom: 83px;*/
+    padding-bottom: 141px;
+}
+
+.apply_spontaneously h1 {
+    margin-bottom: 44px;
+}
+
+.apply_spontaneously .red_text_block {
+    clip-path: polygon(0 0, 100% 0, 100% 87%, 92% 87%, 92% 100%, 0 100%);
+    max-width: 550px;
+    padding: 29px 50px 45px 30px;
+}
+
+.apply_spontaneously .red_text_block p {
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: -0.7px;
+    line-height: 25px;
+}
+
+.apply_spontaneously form {
+    margin-left: 15px;
+    padding-bottom: 11px;
+}
+
+.apply_spontaneously .upload_label {
+    background: transparent;
+    border: 1px solid #fff;
+    border-radius: 0;
+    display: block;
+    width: 100%;
+    height: calc(1.5em + 1rem + 2px);
+    padding: .5rem 1rem;
+    font-size: 1.25rem;
+    line-height: 1.5;
+}
+
+.apply_spontaneously .upload_label .i-plus {
+    font-size: 38px;
+    line-height: 0.6;
+}
+
+.apply_spontaneously .upload_label label {
+    display: flex;
+    justify-content: space-between;
+    color: #6c757d;
+    cursor: pointer;
+    font-family: "stratos",sans-serif;
+    font-size: 18px;
+    letter-spacing: -0.35px;
+    width: 100%;
+}
+
+.apply_spontaneously .upload_label label .file-cv {
+    display: none;
+}
+
+.apply_spontaneously form .btn_form::parent {
+    margin-bottom: -15px;
+}
+
+.apply_spontaneously form > p:last-child {
+    margin-bottom: -45px;
+}
+
+.apply_spontaneously form .btn_form {
+    position: relative;
+}
+
+@media screen and (max-width: 1199px) {
+    .apply_spontaneously {
+        margin-top: 30px;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .page-id-90 .current-menu-parent > a:after {
+        width: 60%;
+        left: 42%;
+        top: 18%;
+    }
+    .apply_spontaneously form {
+        margin-top: 50px;
+        margin-left: 0;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .apply_spontaneously .form-group {
+        max-width: 80%;
+    }
+
+    .apply_spontaneously .form-group textarea {
         max-width: 100%;
     }
 }

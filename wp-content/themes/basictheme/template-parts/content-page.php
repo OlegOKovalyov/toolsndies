@@ -370,3 +370,24 @@ if (is_page('jobs')): ?>
     </div>
 </article>
 <?php endif;
+
+
+if (is_page('jobs/spontane-sollicatie')): ?>
+<article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
+    <div class="apply_spontaneously container">
+        <div class="row">
+            <div class="col-lg-6 col-md-12">
+                <h1 class="tk-orpheuspro"><?php the_field('spontaneously_title'); ?></h1>
+                <div class="red_text_block">
+                    <p>Samen hebben onze teamleden 350 jaar ervaring in verschillende domeinen. Wij vormen dan ook de ideale leerschool voor iedereen die graag meer wil weten en leren over het maken van gereedschappen.
+                        <br><br>
+                        Of je nu aan het begin van je carrière staat of je wil extra ervaring toevoegen aan ons team, we heten je graag welkom!</p>
+                </div>
+            </div>
+            <div class="col-lg-6 col-md-12">
+                <?php echo do_shortcode( '[contact-form-7 id="203" title="Apply Spontaneously"]' ); ?>
+            </div>
+        </div>
+    </div>
+</article>
+<?php endif;
