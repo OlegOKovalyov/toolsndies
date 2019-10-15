@@ -487,3 +487,130 @@ if (is_page('jobs/vacatures')): ?>
     </section>
 </article>
 <?php endif;
+
+
+if (is_page('aanbod/onderhoud')): ?>
+<article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
+    <div class="reliable_service container">
+        <div class="row">
+            <div class="col-lg-6 col-md-12">
+                <h1 class="tk-orpheuspro"><?php the_field('reliable_service_title'); ?></h1>
+                <div class="red_text_block">
+                    <h4>SAMEN GAAN WE VOOR MAXIMAAL RENDEMENT</h4>
+                    <p>Ons team van experten zal met een doordacht ontwerp en een juiste ontwikkeling de levensduur van uw gereedschappen zo lang mogelijk maken. Maar dat neemt niet weg dat een regelmatig onderhoud van uw materiaal cruciaal is om een maximaal rendement te bekomen.
+                        <br><br>
+                        Bij Tools&Dies krijgt u automatisch de noodzakelijke parameters bij de oplevering van uw gereedschap, opdat u weet wanneer het tijd om een onderhoud aan te vragen</p>
+                </div>
+                <div class="contact_btn container text-left">
+                    <a href="<?php the_field('link_ok_contact'); ?>" type="" class="btn btn-lg btn-primary">OK, IK NEEM CONTACT OP →</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="our_aspect container-fluid">
+        <div class="row">
+            <div class="container">
+                <div class="row">
+                    <div class="offset-lg-1 col-lg-10">
+                        <h2><?php the_field('reliable_title_h2') ?></h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="aspect_items container">
+                <div class="row">
+                    <div class="aspect_column col-lg-6">
+                        <div class="card card01">
+                            <div class="card-body">
+                                <div class="i_img"><img src="<?php bloginfo('template_url'); ?>/images/i-edit.png" alt="Icon Image"></div>
+                                <div class="card_header">
+                                    <span class="card_number">01</span>
+                                    <h5 class="card-title">Inventaris</h5>
+                                </div>
+                                <p class="card-text">We starten met een analyse op uw inventaris van uw assets/gereedschappen. Die analyse kan op basis van tekeningen, maar ook door een fysieke analyse van de matrijzen. Een nulpuntbepaling is cruciaal voor een geslaagde start!</p>
+                            </div>
+                        </div>
+                        <div class="card card03">
+                            <div class="card-body">
+                                <div class="i_img"><img src="<?php bloginfo('template_url'); ?>/images/i-edit.png" alt="Icon Image"></div>
+                                <div class="card_header">
+                                    <span class="card_number">03</span>
+                                    <h5 class="card-title">Pro-actief onderhoud</h5>
+                                </div>
+                                <p class="card-text">Dankzij onze nulpuntbepaling bij de startfase kunnen we analyseren welke parameters van tel zullen zijn om te bepalen wanneer het gereedschap een onderhoudsbeurt nodig heeft. Zo weet u dus steeds op voorhand hoe vaak er een onderhoud moet worden ingepland.
+                                <br><br>Mocht er echter een dringende interventie nodig zijn, dan staat ons team natuurlijk klaar om u verder te helpen.</p>
+                            </div>
+                        </div>
+                        <div class="card card05">
+                            <div class="card-body">
+                                <div class="i_img"><img src="<?php bloginfo('template_url'); ?>/images/i-edit.png" alt="Icon Image"></div>
+                                <div class="card_header">
+                                    <span class="card_number">05</span>
+                                    <h5 class="card-title">Communicatie</h5>
+                                </div>
+                                <p class="card-text">Uiteraard staat communicatie centraal in een onderhoudstraject. Net daarom werken we met een platform waarin alle belangrijke communicatie makkelijk kan worden gedeeld. De volgeende items worden m.b.v. het platform beheerd:<br>
+                                    1. Delen van tekening, met de juiste versie<br>
+                                    2. Opvoling van lopende onderhoudsbeurten<br>
+                                    3. Intervantierapporten</p>
+                            </div>
+                        </div>
+                        <div class="contact_btn container text-right">
+                            <a href="<?php the_field('link_ok_contact'); ?>" type="" class="btn btn-lg btn-primary">OK, IK NEEM CONTACT OP →</a>
+                        </div>
+                    </div>
+                    <div class="aspect_column_right col-lg-6">
+                        <div class="card card02">
+                            <div class="card-body">
+                                <div class="i_img"><img src="<?php bloginfo('template_url'); ?>/images/i-edit.png" alt="Icon Image"></div>
+                                <div class="card_header">
+                                    <h5 class="card-title">Standaard</h5>
+                                    <span class="card_number">02</span>
+                                </div>
+                                <p class="card-text">Tijdens het onderhoud streven we naar een gestandardiseerde manier van werken. Maar wat betekent dat precies?
+                                <br><br>We bepalen een aantal werkmethodes met duidelijke prijzen voor het onderhouden van de belangrijkste onderdelen en/of interventies, opdat u weet wat u kan verwachten van ons.
+                                <br><br>Mochten er toch nog interventies nodig zijn die buiten die standaardtarieven vallen? Dan nemen we alvast de regietarieven mee op in het contract</p>
+                            </div>
+                        </div>
+                        <div class="card card04">
+                            <div class="card-body">
+                                <div class="i_img"><img src="<?php bloginfo('template_url'); ?>/images/i-edit.png" alt="Icon Image"></div>
+                                <div class="card_header">
+                                    <h5 class="card-title">Dringende interventie</h5>
+                                    <span class="card_number">04</span>
+                                </div>
+                                <p class="card-text">Tools & Dies vormt een centraal component van uw productieproces en wij staan dan ook paraat om snelle interventies uit te voeren. Bij een breuk komen we ter plaatse om vast te stellen wat er precies is misgelopen.
+                                    <br><br>Alle dringende interventies worden op een werkbon gedigitaliseerd, opdat de juiste informatie kan worden doorgegeven aan de juiste personen. Zo kunnen we snel in actie schieten om een oplossing te voorzien.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <section class="review container-fluid">
+        <div class="row">
+            <div class="container">
+                <div class="row">
+                    <div class="sub_title_right col">
+                        <h6>WAT ONZE KLANTEN ZEGGEN</h6>
+                    </div>
+                    <div class="review_block offset-lg-1 col-lg-9">
+                        <div class="review_block_wrap">
+                            <p>Met Tools&Dies als partner voor het maken van nieuwe onderdelen, alsook het onderhoud van bestaande gereedschappen, kunnen wij rekenen op een ongekende expertise! Die expertise levert echt een toegevoegde waarde binnen onze productie, alsook de bijhorende kwalitatieve producten die we leveren en installeren</p>
+                        </div>
+                    </div>
+                    <div class="quote_author col-lg-2">
+                        <span>Anthony Schrauwen</span>
+                        <p>Interalu</p>
+                    </div>
+                    <div class="contact_dark_btn row justify-content-center">
+                        <a href="<?php the_field('link_ok_contact'); ?>" type="" class="btn btn-lg btn-outline-primary">OK, IK NEEM CONTACT OP</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</article>
+
+<?php endif;

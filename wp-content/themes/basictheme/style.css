@@ -2344,7 +2344,7 @@ body.page-id-86.custom-background {
 
 .card .card-title {
     color: #ff3a20;
-    font-size: 43px;
+    font-size: 42px;
     display: inline;
     margin-bottom: -5px;
 }
@@ -2547,8 +2547,6 @@ body.page-id-90.custom-background {
 }
 
 /* ------ VACANCIES PAGE -------------------- */
-/* GENERAL SPECIFICATION */
-
 /* vacancies */
 body.page-id-88.custom-background {
     background-image: url(images/bg_contacttop.png);
@@ -2694,4 +2692,229 @@ body.page-id-88.custom-background {
     /*.bg_twoimg {*/
     /*    height: 307px;*/
     /*}*/
+}
+
+/* ------ ONDERHOUD PAGE -------------------- */
+/* GENERAL SPECIFICATION */
+
+/* onderhoud */
+body.page-id-52.custom-background {
+    background-image: url(images/bg_onderhoudtop.png);
+    background-position: right top;
+    background-size: 56.3%;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+}
+
+.page-id-52 .current-menu-parent {
+    position: relative;
+}
+
+.page-id-52 .current-menu-parent > a:after {
+    content: "";
+    position: absolute;
+    margin: 20px auto;
+    background: #fff;
+    height: 5px;
+    width: 80%;
+    left: 12%;
+    top: 47%;
+}
+
+#menu-item-186 > ul.sub-menu {
+    /*display: none;*/
+}
+
+article.post-52 {
+    background: url(images/machine3-1.png) no-repeat 84% 18%;
+}
+
+article.post-52 .review {
+    padding-bottom: 113px;
+    padding-top: 18px;
+}
+
+.reliable_service {
+    padding-bottom: 26px;
+}
+
+.reliable_service .red_text_block {
+    clip-path: polygon(0 0, 100% 0, 100% 88%, 91% 88%, 91% 100%, 0 100%);
+    max-width: 550px;
+    padding-bottom: 16px;
+    margin-bottom: 17px;
+    margin-left: -2px;
+}
+
+.reliable_service h1 {
+    margin-top: 149px;
+    margin-bottom: 39px;
+}
+
+.reliable_service .contact_btn {
+    margin-left: -8px;
+    margin-bottom: 35px;
+}
+
+.our_aspect {
+    background: #fff url(images/bg_aspects.png) no-repeat 83% 103%;
+    background-size: 36%;
+    /* background-color: #fff; */
+    padding-bottom: 279px;
+}
+
+.our_aspect h2 {
+    color: #000;
+    margin-top: 94px;
+    text-align: center;
+}
+
+.aspect_items {
+    margin-top: 66px;
+}
+
+.aspect_items .card01,
+.aspect_items .card03,
+.aspect_items .card05 {
+    padding-left: 0;
+    text-align: right;
+}
+
+.aspect_items .card03 {
+    margin-bottom: -18px;
+}
+
+.aspect_items .card05 {
+    margin-bottom: 43px;
+}
+
+.aspect_items .card01 .card-body,
+.aspect_items .card03 .card-body,
+.aspect_items .card05 .card-body {
+    padding-left: 0;
+}
+
+.aspect_items .card01 .card_header,
+.aspect_items .card03 .card_header,
+.aspect_items .card05 .card_header {
+    justify-content: flex-end;
+    margin-bottom: 22px;
+}
+
+.aspect_items .aspect_column {
+    border-right: 2px dashed #7d7d7d;
+}
+
+.aspect_column img {
+    margin-right: 27px;
+    margin-bottom: 5px;
+}
+
+.aspect_column .i_img {
+    display: flex;
+    /* margin-bottom: -2px; */
+    padding: 0;
+    align-items: center;
+    width: 100%;
+    justify-content: flex-end;
+    flex-direction: row;
+}
+
+.aspect_column .i_img:after {
+    content: '';
+    border-top: 2px dashed #7d7d7d;
+    margin: 0;
+    flex: 0 1 10px;
+    position: absolute;
+    width: 62px;
+    right: -10px;
+}
+
+.aspect_column .card .card_number {
+    margin-right: 11px;
+    margin-bottom: -5px;
+}
+
+.aspect_column h5 {
+    margin-right: 5px;
+}
+
+.aspect_items p {
+    color: #646464;
+    font-size: 18px;
+    font-weight: 300;
+    letter-spacing: -0.35px;
+    line-height: 25px;
+    padding-right: 24px;
+}
+
+.aspect_column .contact_btn {
+    display: flex;
+    padding: 0;
+    align-items: center;
+    width: 100%;
+    justify-content: flex-end;
+    flex-direction: row;
+}
+
+.aspect_column .contact_btn:after {
+    content: '';
+    border-top: 2px dashed #7d7d7d;
+    margin: 0;
+    flex: 0 1 10px;
+    position: absolute;
+    width: 62px;
+    right: 0;
+}
+
+.aspect_column .contact_btn a {
+    margin-right: 53px;
+}
+
+.aspect_items .card02,
+.aspect_items .card04 {
+    margin-top: 79px;
+}
+
+.aspect_items .card02 {
+    margin-bottom: -35px;
+}
+
+.aspect_items .card04 {
+    /*margin-bottom: 0;*/
+}
+
+.aspect_items .card02 .card_header,
+.aspect_items .card04 .card_header {
+    margin-left: 18px;
+    margin-bottom: 21px;
+}
+
+.aspect_column_right img {
+    margin-left: 15px;
+    margin-bottom: 7px;
+}
+
+.aspect_column_right p {
+    margin-left: 16px;
+    padding-right: 0;
+}
+
+.aspect_column_right .i_img {
+    display: flex;
+    padding: 0;
+    align-items: center;
+    width: 100%;
+    justify-content: flex-start;
+    flex-direction: row;
+}
+
+.aspect_column_right .i_img:before {
+    content: '';
+    border-top: 2px dashed #7d7d7d;
+    margin: 0px;
+    flex: 0 0 10px;
+    position: absolute;
+    width: 50px;
+    left: -12px;
 }
