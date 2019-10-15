@@ -95,7 +95,7 @@ body {
 .tk-stratos { font-family: "stratos",sans-serif; }
 
 .site-content article {
-    background: url(/wp-content/themes/basictheme/images/bg_crosses.png) no-repeat 11% 13%;
+    background: url(images/bg_crosses.png) no-repeat 11% 13%;
 }
 
 
@@ -2694,6 +2694,7 @@ body.page-id-88.custom-background {
     /*}*/
 }
 
+
 /* ------ ONDERHOUD PAGE -------------------- */
 /* GENERAL SPECIFICATION */
 
@@ -2917,4 +2918,313 @@ article.post-52 .review {
     position: absolute;
     width: 50px;
     left: -12px;
+}
+
+
+/* ------ FIJNMECHANISCH-STUKWERK PAGE (Procesonderdelen) -------------------- */
+/* GENERAL SPECIFICATION */
+
+/* precision_mechanics */
+.page-id-48 .site-content article {
+    background: url(images/machine2-1.png) no-repeat 25% 16%,
+    url(images/bg_crosses.png) no-repeat 9% 10%;
+}
+
+body.page-id-48.custom-background {
+    background-image: url(images/bg_precision_mechanicstop.png);
+    background-position: right top;
+    background-size: 56.3%;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+}
+
+.page-id-48 .current-menu-parent {
+    position: relative;
+}
+
+.page-id-48 .current-menu-parent > a:after {
+    content: "";
+    position: absolute;
+    margin: 20px auto;
+    background: #fff;
+    height: 5px;
+    width: 80%;
+    left: 12%;
+    top: 47%;
+}
+
+#menu-item-186 > ul.sub-menu {
+    /*display: none;*/
+}
+
+article.post-48 {
+    /*background: url(images/machine2-1.png) no-repeat 25% 134%,*/
+    /*            url(images/bg_crosses.png) no-repeat 9% 87%;*/
+}
+
+.precision_mechanics {
+    margin-top: 150px;
+    padding-bottom: 69px;
+}
+
+.precision_mechanics h1 {
+    margin-bottom: 48px;
+}
+
+.precision_mechanics .red_text_block {
+    clip-path: polygon(0 0, 100% 0, 100% 89%, 91% 89%, 91% 100%, 0 100%);
+    max-width: 550px;
+    padding: 24px 50px 5px 30px;
+}
+
+.precision_mechanics .red_text_block p {
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: -0.7px;
+    line-height: 25px;
+}
+
+.precision_mechanics form {
+    padding-bottom: 33px;
+    margin-right: 6px;
+    margin-left: -4px;
+}
+
+.precision_mechanics form .form-group:nth-child(2) {
+    max-width: 100%;
+}
+
+.precision_mechanics .upload_label {
+    background: transparent;
+    border: 1px solid #fff;
+    border-radius: 0;
+    display: block;
+    width: 100%;
+    height: calc(1.5em + 1rem + 2px);
+    padding: .5rem 1rem;
+    font-size: 1.25rem;
+    line-height: 1.5;
+}
+
+.precision_mechanics .upload_label .i-plus {
+    font-size: 38px;
+    line-height: 0.6;
+}
+
+.precision_mechanics .upload_label label {
+    display: flex;
+    justify-content: space-between;
+    color: #6c757d;
+    cursor: pointer;
+    font-family: "stratos",sans-serif;
+    font-size: 18px;
+    letter-spacing: -0.35px;
+    width: 100%;
+}
+
+.precision_mechanics .upload_label label .file-cv {
+    display: none;
+}
+
+.precision_mechanics form .btn_form::parent {
+    margin-bottom: -15px;
+}
+
+.precision_mechanics form > p:last-child {
+    margin-bottom: -45px;
+}
+
+.precision_mechanics form .btn_form {
+    position: relative;
+    padding-right: .5rem;
+}
+
+/* Form Checkbox Styling */
+.precision_mechanics form .form-group:nth-child(7) {
+    margin-bottom: -16px;
+}
+
+.precision_mechanics form .form-group:nth-child(8) {
+    height: 55px;
+    max-width: 100%;
+}
+
+.precision_mechanics .wpcf7  .wpcf7-checkbox.form-control.form-control-lg.checkbox {
+    background: transparent;
+    border: none;
+}
+
+.precision_mechanics .wpcf7 .wpcf7-list-item {
+    display: block;
+    margin-bottom: 10px;
+    margin-left: 5px;
+}
+
+.precision_mechanics .wpcf7-form .wpcf7-checkbox label {
+    position: relative;
+    cursor: pointer;
+}
+
+.precision_mechanics .wpcf7-form .wpcf7-checkbox input[type=checkbox] {
+    position: relative;
+    visibility: hidden;
+}
+
+.precision_mechanics .wpcf7-form .wpcf7-checkbox input[type=checkbox] + span {
+    color: #7b7b7b;
+    font-family: "stratos",sans-serif;
+    font-size: 18px;
+    letter-spacing: -0.35px;
+}
+
+.precision_mechanics .wpcf7-form .wpcf7-checkbox input[type=checkbox] + span:before {
+    display: block;
+    position: absolute;
+    content: '';
+    height: 20px;
+    width: 20px;
+    top: 12px;
+    left: 0;
+    border: 2px solid #fff;
+}
+
+.precision_mechanics .wpcf7-form .wpcf7-checkbox input[type=checkbox] + span:after {
+    display: block;
+    position: absolute;
+    content: '\2713';
+    border-radius: 100%;
+    height: 10px;
+    width: 10px;
+    top: 2px;
+    left: 5px;
+    visibility: hidden;
+    font-size: 26px;
+    color: #7b7b7b;
+    font-weight: 700;
+}
+
+.precision_mechanics .wpcf7-form .wpcf7-checkbox input[type=checkbox]:checked + span:before {
+    background: transparent;
+}
+
+.precision_mechanics .wpcf7-form .wpcf7-checkbox input[type=checkbox]:checked + span:after {
+    visibility: visible;
+}
+/* /Form Checkbox Styling */
+
+/* competencies */
+.our_competencies {
+    background: #fff;
+    padding-bottom: 29px;
+}
+
+.our_competencies h2 {
+    color: #000;
+    margin-top: 94px;
+    margin-bottom: 43px;
+    text-align: center;
+}
+
+/* competency_items */
+.competency_items {
+    margin-bottom: 16px;
+}
+
+.competency_items .card {
+    border-bottom: 2px dashed #cdcdcd;
+}
+
+.competency_items .competency_column_last .card {
+    border-bottom: none;
+}
+
+.competency_items > div > div:nth-child(odd) {
+    border-right: 2px dashed #cdcdcd;
+}
+
+.competency_items .card-body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.competency_items > .row {
+    margin-bottom: -15px;
+}
+
+.competency_items .competency_img {
+    margin-bottom: 11px;
+}
+
+.our_competencies .contact_btn {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: -46px;
+    padding: 1rem 0.5rem 1rem 0;
+}
+
+.our_competencies .contact_btn:before {
+    content: '';
+    border: 1px solid #d4d4d4;
+    margin: 0 30px 0 0;
+    flex: 1 0 20px;
+}
+
+.our_competencies .contact_btn:after {
+    content: '';
+    border: 1px solid #d4d4d4;
+    margin: 0 30px 0 0;
+    flex: 1 0 20px;
+}
+
+/* active_sectors */
+.active_sectors h2 {
+    margin-top: 89px;
+    margin-bottom: 75px;
+}
+.active_sectors_items {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: flex-end;
+}
+
+.active_sectors_item {
+    /*margin-bottom: 55px;*/
+    text-align: center;
+    width: 290px;
+}
+
+.active_sectors_item > div {
+    border-bottom: 2px dashed #cdcdcd;
+    border-right: 2px dashed #cdcdcd;
+    padding-bottom: 26px;
+}
+
+.active_sectors_item div.border_bottom_none {
+    border-bottom: none;
+}
+
+.active_sectors_item div.border_right_none {
+    border-right: none;
+}
+
+.active_sectors_item div.padding_top_55 {
+    padding-top: 55px;
+}
+
+.active_sectors_items img {
+    margin-bottom: 14px;
+}
+
+.active_sectors_item p {
+    color: #000;
+}
+
+article.post-48 .review {
+    margin-top: -15px;
+    margin-bottom: 8px;
 }

@@ -169,7 +169,8 @@ if (is_page('re-engineering-aanmaak')): ?>
                     <h4>Van een slim ontwerp naar een afgewerkt product</h4>
                     <p>Alvorens we starten met ontwikkelen, is het ontwerp de basis van alles. Daarom dat we steeds starten met de creatie van een optimaal ontwerp in overleg met de klant, waarbij de functionele vereisten steeds prioritair blijven.
                         <br><br>
-                        Vervolgens kunnen onze ontwerpers en tekenaars a.d.h.v het geïntegreerde CAD/CAM-systeem ontwerpen realiseren die onze machines foutloos aansturen. Na een uitgebreide testing van de matrijs bent u als klant vertrekkensklaar!</p>
+                        Vervolgens kunnen onze ontwerpers en tekenaars a.d.h.v het geïntegreerde CAD/CAM-systeem ontwerpen realiseren die onze machines foutloos aansturen. Na een uitgebreide testing van de matrijs bent u als klant vertrekkensklaar!
+                    </p>
                     <!--                <a href="--><?php //the_field('link_to_expertise'); ?><!--" type="" class="btn_question btn btn-link">BEZOEK ONZE JOBS PAGINA →</a>-->
                 </div>
                 <h6><?php the_field('subtitle'); ?></h6>
@@ -381,7 +382,8 @@ if (is_page('jobs/spontane-sollicatie')): ?>
                 <div class="red_text_block">
                     <p>Samen hebben onze teamleden 350 jaar ervaring in verschillende domeinen. Wij vormen dan ook de ideale leerschool voor iedereen die graag meer wil weten en leren over het maken van gereedschappen.
                         <br><br>
-                        Of je nu aan het begin van je carrière staat of je wil extra ervaring toevoegen aan ons team, we heten je graag welkom!</p>
+                        Of je nu aan het begin van je carrière staat of je wil extra ervaring toevoegen aan ons team, we heten je graag welkom!
+                    </p>
                 </div>
             </div>
             <div class="col-lg-6 col-md-12">
@@ -402,7 +404,8 @@ if (is_page('jobs/vacatures')): ?>
                 <div class="red_text_block">
                     <p>Samen hebben onze teamleden 350 jaar ervaring in verschillende domeinen. Wij vormen dan ook de ideale leerschool voor iedereen die graag meer wil weten en leren over het maken van gereedschappen.
                         <br><br>
-                        Of je nu aan het begin van je carrière staat of je wil extra ervaring toevoegen aan ons team, we heten je graag welkom!</p>
+                        Of je nu aan het begin van je carrière staat of je wil extra ervaring toevoegen aan ons team, we heten je graag welkom!
+                    </p>
                 </div>
             </div>
         </div>
@@ -499,7 +502,8 @@ if (is_page('aanbod/onderhoud')): ?>
                     <h4>SAMEN GAAN WE VOOR MAXIMAAL RENDEMENT</h4>
                     <p>Ons team van experten zal met een doordacht ontwerp en een juiste ontwikkeling de levensduur van uw gereedschappen zo lang mogelijk maken. Maar dat neemt niet weg dat een regelmatig onderhoud van uw materiaal cruciaal is om een maximaal rendement te bekomen.
                         <br><br>
-                        Bij Tools&Dies krijgt u automatisch de noodzakelijke parameters bij de oplevering van uw gereedschap, opdat u weet wanneer het tijd om een onderhoud aan te vragen</p>
+                        Bij Tools&Dies krijgt u automatisch de noodzakelijke parameters bij de oplevering van uw gereedschap, opdat u weet wanneer het tijd om een onderhoud aan te vragen
+                    </p>
                 </div>
                 <div class="contact_btn container text-left">
                     <a href="<?php the_field('link_ok_contact'); ?>" type="" class="btn btn-lg btn-primary">OK, IK NEEM CONTACT OP →</a>
@@ -539,7 +543,8 @@ if (is_page('aanbod/onderhoud')): ?>
                                     <h5 class="card-title">Pro-actief onderhoud</h5>
                                 </div>
                                 <p class="card-text">Dankzij onze nulpuntbepaling bij de startfase kunnen we analyseren welke parameters van tel zullen zijn om te bepalen wanneer het gereedschap een onderhoudsbeurt nodig heeft. Zo weet u dus steeds op voorhand hoe vaak er een onderhoud moet worden ingepland.
-                                <br><br>Mocht er echter een dringende interventie nodig zijn, dan staat ons team natuurlijk klaar om u verder te helpen.</p>
+                                <br><br>Mocht er echter een dringende interventie nodig zijn, dan staat ons team natuurlijk klaar om u verder te helpen.
+                                </p>
                             </div>
                         </div>
                         <div class="card card05">
@@ -552,7 +557,8 @@ if (is_page('aanbod/onderhoud')): ?>
                                 <p class="card-text">Uiteraard staat communicatie centraal in een onderhoudstraject. Net daarom werken we met een platform waarin alle belangrijke communicatie makkelijk kan worden gedeeld. De volgeende items worden m.b.v. het platform beheerd:<br>
                                     1. Delen van tekening, met de juiste versie<br>
                                     2. Opvoling van lopende onderhoudsbeurten<br>
-                                    3. Intervantierapporten</p>
+                                    3. Intervantierapporten
+                                </p>
                             </div>
                         </div>
                         <div class="contact_btn container text-right">
@@ -569,7 +575,8 @@ if (is_page('aanbod/onderhoud')): ?>
                                 </div>
                                 <p class="card-text">Tijdens het onderhoud streven we naar een gestandardiseerde manier van werken. Maar wat betekent dat precies?
                                 <br><br>We bepalen een aantal werkmethodes met duidelijke prijzen voor het onderhouden van de belangrijkste onderdelen en/of interventies, opdat u weet wat u kan verwachten van ons.
-                                <br><br>Mochten er toch nog interventies nodig zijn die buiten die standaardtarieven vallen? Dan nemen we alvast de regietarieven mee op in het contract</p>
+                                <br><br>Mochten er toch nog interventies nodig zijn die buiten die standaardtarieven vallen? Dan nemen we alvast de regietarieven mee op in het contract
+                                </p>
                             </div>
                         </div>
                         <div class="card card04">
@@ -580,7 +587,8 @@ if (is_page('aanbod/onderhoud')): ?>
                                     <span class="card_number">04</span>
                                 </div>
                                 <p class="card-text">Tools & Dies vormt een centraal component van uw productieproces en wij staan dan ook paraat om snelle interventies uit te voeren. Bij een breuk komen we ter plaatse om vast te stellen wat er precies is misgelopen.
-                                    <br><br>Alle dringende interventies worden op een werkbon gedigitaliseerd, opdat de juiste informatie kan worden doorgegeven aan de juiste personen. Zo kunnen we snel in actie schieten om een oplossing te voorzien.</p>
+                                    <br><br>Alle dringende interventies worden op een werkbon gedigitaliseerd, opdat de juiste informatie kan worden doorgegeven aan de juiste personen. Zo kunnen we snel in actie schieten om een oplossing te voorzien.
+                                </p>
                             </div>
                         </div>
                     </div>
@@ -612,5 +620,211 @@ if (is_page('aanbod/onderhoud')): ?>
         </div>
     </section>
 </article>
+<?php endif;
+
+
+if (is_page('aanbod/fijnmechanisch-stukwerk')): ?>
+    <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
+        <div class="precision_mechanics container">
+            <div class="row">
+                <div class="col-lg-6 col-md-12">
+                    <h1 class="tk-orpheuspro"><?php the_field('fijnmechanisch_title'); ?></h1>
+                    <div class="red_text_block">
+                        <h4>WIJ HELPEN U VERDER OP MAAT!</h4>
+                        <p>Dankzij onze jarenlange expertise en een uitgebreid machinepark kunnen wij lage volumes van hoogtechnologische aard maken aan een goede prijs én met hoge kwaliteit.
+                            <br><br>
+                            Bent u in het bezit van een correcte producttekening?
+                            Neem dan meteen contact op en vraag een offerte aan!<br><br>
+                            Indien u hulp nodig heeft bij het definiëren van uw opdract of probleem, dan staan onze experts voor u klaar om samen een oplossing te zoeken.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-12">
+                    <?php echo do_shortcode( '[contact-form-7 id="228" title="Request Price"]' ); ?>
+                </div>
+            </div>
+        </div>
+        <div class="our_competencies container-fluid">
+            <div class="row">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <h2><?php the_field('our_competencies_h2') ?></h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="competency_items container">
+                    <div class="row align-items-end">
+                        <div class="competency_column col-lg-6 pr-0">
+                            <div class="card">
+                                <div class="card-body">
+                                    <div class="competency_img"><img src="<?php bloginfo('template_url'); ?>/images/i_competency1.png" alt="Icon Image"></div>
+                                    <div class="card_header">
+                                        <h5 class="card-title">Boorvonken</h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="competency_column col-lg-6 pl-0">
+                            <div class="card">
+                                <div class="card-body">
+                                    <div class="competency_img"><img src="<?php bloginfo('template_url'); ?>/images/i_competency2.png" alt="Icon Image"></div>
+                                    <div class="card_header">
+                                        <h5 class="card-title">Ontwerpen</h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div><!-- .row -->
+                    <div class="row align-items-end">
+                        <div class="competency_column col-lg-6 pr-0">
+                            <div class="card">
+                                <div class="card-body">
+                                    <div class="competency_img"><img src="<?php bloginfo('template_url'); ?>/images/i_competency3.png" alt="Icon Image"></div>
+                                    <div class="card_header">
+                                        <h5 class="card-title">Draadvonken</h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="competency_column col-lg-6 pl-0">
+                            <div class="card">
+                                <div class="card-body">
+                                    <div class="competency_img"><img src="<?php bloginfo('template_url'); ?>/images/i_competency4.png" alt="Icon Image"></div>
+                                    <div class="card_header">
+                                        <h5 class="card-title">Persen</h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div><!-- .row -->
+                    <div class="row align-items-end">
+                        <div class="competency_column col-lg-6 pr-0">
+                            <div class="card">
+                                <div class="card-body">
+                                    <div class="competency_img"><img src="<?php bloginfo('template_url'); ?>/images/i_competency5.png" alt="Icon Image"></div>
+                                    <div class="card_header">
+                                        <h5 class="card-title">Draaien</h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="competency_column col-lg-6 pl-0">
+                            <div class="card">
+                                <div class="card-body">
+                                    <div class="competency_img"><img src="<?php bloginfo('template_url'); ?>/images/i_competency6.png" alt="Icon Image"></div>
+                                    <div class="card_header">
+                                        <h5 class="card-title">Vlakslijpen</h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div><!-- .row -->
+                    <div class="row align-items-end">
+                        <div class="competency_column_last col-lg-6 pr-0">
+                            <div class="card">
+                                <div class="card-body">
+                                    <div class="competency_img"><img src="<?php bloginfo('template_url'); ?>/images/i_competency7.png" alt="Icon Image"></div>
+                                    <div class="card_header">
+                                        <h5 class="card-title">Frezen</h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="competency_column_last col-lg-6 pl-0">
+                            <div class="card">
+                                <div class="card-body">
+                                    <div class="competency_img"><img src="<?php bloginfo('template_url'); ?>/images/i_competency8.png" alt="Icon Image"></div>
+                                    <div class="card_header">
+                                        <h5 class="card-title">Zinkvonken</h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div><!-- .row -->
+                </div>
+                <div class="contact_btn text-center">
+                    <a href="<?php the_field('link_ok_contact'); ?>" type="" class="btn btn-lg btn-primary">OK, IK NEEM CONTACT OP →</a>
+                </div>
+                <div class="active_sectors container">
+                    <div class="row">
+                        <div class="active_sectors_h2 offset-lg-2 col-lg-8">
+                            <h2 class="tk-orpheuspro"><?php the_field('active_sectors_h2'); ?></h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="active_sectors_items container">
+                    <div class="active_sectors_item">
+                        <div>
+                            <img src="<?php bloginfo('template_url'); ?>/images/i_active_sectors1.png" alt="Active Sector Icon">
+                            <p>Automatisatie</p>
+                        </div>
+                    </div>
+                    <div class="active_sectors_item">
+                        <div>
+                            <img src="<?php bloginfo('template_url'); ?>/images/i_active_sectors2.png" alt="Active Sector Icon">
+                            <p>Chemie</p>
+                        </div>
+                    </div>
+                    <div class="active_sectors_item">
+                        <div>
+                            <img src="<?php bloginfo('template_url'); ?>/images/i_active_sectors3.png" alt="Active Sector Icon">
+                            <p>Metaalindustrie</p>
+                        </div>
+                    </div>
+                    <div class="active_sectors_item">
+                        <div class="border_right_none">
+                            <img src="<?php bloginfo('template_url'); ?>/images/i_active_sectors4.png" alt="Active Sector Icon">
+                            <p>Pharmacie</p>
+                        </div>
+                    </div>
+                    <div class="active_sectors_item">
+                        <div class="border_bottom_none padding_top_55">
+                            <img src="<?php bloginfo('template_url'); ?>/images/i_active_sectors5.png" alt="Active Sector Icon">
+                            <p>Bouw</p>
+                        </div>
+                    </div>
+                    <div class="active_sectors_item">
+                        <div class="border_bottom_none padding_top_55">
+                            <img src="<?php bloginfo('template_url'); ?>/images/i_active_sectors6.png" alt="Active Sector Icon">
+                            <p>Kunststof</p>
+                        </div>
+                    </div>
+                    <div class="active_sectors_item">
+                        <div class="border_bottom_none border_right_none padding_top_55">
+                            <img src="<?php bloginfo('template_url'); ?>/images/i_active_sectors7.png" alt="Active Sector Icon">
+                            <p>Muntindustrie</p>
+                        </div>
+                    </div>
+                </div>
+            </div><!-- .row -->
+        </div>
+        <section class="review container-fluid">
+            <div class="row">
+                <div class="container">
+                    <div class="row">
+                        <div class="sub_title_right col">
+                            <h6>WAT ONZE KLANTEN ZEGGEN</h6>
+                        </div>
+                        <div class="review_block offset-lg-1 col-lg-9">
+                            <div class="review_block_wrap">
+                                <p>Met Tools&Dies als partner voor het maken van nieuwe onderdelen, alsook het onderhoud van bestaande gereedschappen, kunnen wij rekenen op een ongekende expertise! Die expertise levert echt een toegevoegde waarde binnen onze productie, alsook de bijhorende kwalitatieve producten die we leveren en installeren</p>
+                            </div>
+                        </div>
+                        <div class="quote_author col-lg-2">
+                            <span>Anthony Schrauwen</span>
+                            <p>Interalu</p>
+                        </div>
+                        <div class="contact_dark_btn row justify-content-center">
+                            <a href="<?php the_field('link_ok_contact'); ?>" type="" class="btn btn-lg btn-outline-primary">OK, IK NEEM CONTACT OP</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </article>
+
 
 <?php endif;
